@@ -2,29 +2,25 @@ class TasksController < ApplicationController
   # GET /tasks
   # GET /tasks.xml
   include Constants
-    
+
   def index
     @categories = current_user.categories
-    if params[:category_id] 
+    if params[:category_id]
       @tasks = current_user.tasks.by_category(params[:category_id])
-   end
+    end
     if params[:category_id] == "all"
       @task =Task.all
     end
     unless params[:category_id]
-       @task=Task.all
+      @task=Task.all
     end
-
-#      @tasks_finished = current_user.finished_tasks
-#      @tasks_started = current_user.started_tasks
 
     @tasks_finished = @tasks.finished
     @tasks_started = @tasks.started
 
-
   end
 
-  
+
   # GET /tasks/1
   # GET /tasks/1.xml
   def show
@@ -32,7 +28,7 @@ class TasksController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render :xml => @task }
+      format.xml { render :xml => @task }
     end
   end
 
@@ -47,12 +43,17 @@ class TasksController < ApplicationController
     end
     respond_to do |format|
       format.html # new.html.erb
-      format.xml  { render :xml => @task }
+      format.xml { render :xml => @task }
     end
   end
 
   # GET /tasks/1/edit
   def edit
+    @categories = Category.all
+    @endcategories = []
+    @categories.each do |t|
+      @endcategories.push [t.category_name, t.id]
+    end
     @task = Task.find(params[:id])
   end
 
@@ -65,10 +66,10 @@ class TasksController < ApplicationController
       if @task.save
         flash[:notice] = 'Task was successfully created.'
         format.html { redirect_to(@task) }
-        format.xml  { render :xml => @task, :status => :created, :location => @task }
+        format.xml { render :xml => @task, :status => :created, :location => @task }
       else
         format.html { render :action => "new" }
-        format.xml  { render :xml => @task.errors, :status => :unprocessable_entity }
+        format.xml { render :xml => @task.errors, :status => :unprocessable_entity }
       end
     end
   end
@@ -82,10 +83,10 @@ class TasksController < ApplicationController
       if @task.update_attributes(params[:task])
         flash[:notice] = 'Task was successfully updated.'
         format.html { redirect_to(@task) }
-        format.xml  { head :ok }
+        format.xml { head :ok }
       else
         format.html { render :action => "edit" }
-        format.xml  { render :xml => @task.errors, :status => :unprocessable_entity }
+        format.xml { render :xml => @task.errors, :status => :unprocessable_entity }
       end
     end
   end
@@ -98,6 +99,6 @@ class TasksController < ApplicationController
     render :update do |page|
       page.remove "tr_#{@task.id}"
     end
-    
+
   end
 end
