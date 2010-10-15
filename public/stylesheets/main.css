@@ -67,3 +67,7 @@ div.task_container:hover div.actions {
 div.hidden {
     visibility: hidden;
 }
+
+img{
+    margin-top: 3px;    
+}
