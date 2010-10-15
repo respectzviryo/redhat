@@ -9,10 +9,10 @@ class TasksController < ApplicationController
       @tasks = current_user.tasks.by_category(params[:category_id])
     end
     if params[:category_id] == "all"
-      @task =Task.all
+      @tasks = current_user.tasks
     end
     unless params[:category_id]
-      @task=Task.all
+      @tasks = current_user.tasks
     end
 
     @tasks_finished = @tasks.finished
