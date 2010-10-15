@@ -13,7 +13,7 @@ module TasksHelper
   end
 
   def destroy_link  task_id
-    link_to_remote 'Destroy', :confirm => 'Are you sure?', :method => :delete, :url => {:controller => "tasks", :action => "destroy", :id => task_id}
+    link_to_remote image_tag("destroy.png"), :confirm => 'Are you sure?', :method => :delete, :url => {:controller => "tasks", :action => "destroy", :id => task_id}
   end
 
   def through_name task_status
