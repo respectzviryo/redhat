@@ -11,7 +11,7 @@
             <div class="info"><%= task.description %></div>
             <div class="status" id="st_<%= task.id %>"> <%= task.status %></div>
           </div>
-          <div class="actions">
+          <div class="actions hidden">
             <div><%= link_to 'Show', task %></div>
             <div><%= link_to 'Edit', edit_task_path(task) %></div>
             <div><%= destroy_link task.id %></div>

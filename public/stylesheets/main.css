@@ -59,3 +59,11 @@ div.task_container {
 div.task_container:hover {
     background-color: yellow;   
 }
+
+div.task_container:hover div.actions {
+    visibility: visible;   
+}
+
+div.hidden {
+    visibility: hidden;
+}
