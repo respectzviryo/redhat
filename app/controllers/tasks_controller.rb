@@ -4,13 +4,11 @@ class TasksController < ApplicationController
   include Constants
     
   def index
-    @categories =current_user.categories
+    @categories = current_user.categories
     if params[:category_id] 
-#      @task=Task.find(params[:category_id])
-      @task =current_user.tasks.find_all_by_category_id(params[:category_id])
-    end
+      @tasks = current_user.tasks.by_category(params[:category_id])
+   end
     if params[:category_id] == "all"
-#      @task=Task.all
       @task =Task.all
     end
     unless params[:category_id]
@@ -19,10 +17,10 @@ class TasksController < ApplicationController
 
 #      @tasks_finished = current_user.finished_tasks
 #      @tasks_started = current_user.started_tasks
-#    @tasks_finished = @task.find_all_by_status("finished")
-#    @tasks_started = @task.find_all_by_status(["started", "new"])
-    @tasks_finished = @task.find_all_by_status( "finished")
-    @tasks_started = @task.find_all_by_status(["started", "new"])
+
+    @tasks_finished = @tasks.finished
+    @tasks_started = @tasks.started
+
 
   end
 
