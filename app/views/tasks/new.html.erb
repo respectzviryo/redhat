@@ -3,7 +3,7 @@
 
 <% form_for(@task) do |f| %>
   <%= f.error_messages %>
-
+     <%= link_to 'New_category', "/categories/new" %>
      <%= render :partial => "form", :locals => {:f => f} %>
       
     <p>
