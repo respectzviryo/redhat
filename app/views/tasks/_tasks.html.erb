@@ -1,0 +1,24 @@
+<div id="cont_<%= status %>">
+  <% tasks.each do |task| %>
+      <div id="tr_<%= task.id %>" class="tasks">
+        <div class="task_container">
+          <div class="check">
+            <%= checked task %>
+            &nbsp;
+          </div>
+          <div class=<%= through_name task.status %>>
+            <div class="info"><%= task.title %></div>
+            <div class="info"><%= task.description %></div>
+            <div class="status" id="st_<%= task.id %>"> <%= task.status %></div>
+          </div>
+          <div class="actions">
+            <div><%= link_to 'Show', task %></div>
+            <div><%= link_to 'Edit', edit_task_path(task) %></div>
+            <div><%= destroy_link task.id %></div>
+          </div>
+          <div style="clear:both;"></div>
+        </div>
+      </div>
+
+  <% end %>
+</div>

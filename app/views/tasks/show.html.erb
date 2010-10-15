@@ -1,0 +1,20 @@
+<h1>Show task</h1>
+
+<table border="1">
+  <tr>
+    <td>User_Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Status</td>
+  </tr>
+
+
+  <tr id="tr_<%= @task.id %>">
+    <td><%= @task.user_id %></td>
+    <td><%= @task.title %></td>
+    <td><%= @task.description %></td>
+    <td><%= @task.status %></td>
+  </tr>
+</table>
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>

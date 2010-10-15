@@ -1,0 +1,28 @@
+<h1>Sign up as a new user</h1>
+<% @user.password = @user.password_confirmation = nil %>
+<div id="1234"></div>
+
+<% remote_form_for :user, :url => @action do |f| -%>
+    <p><%= f.label :login %><br/>
+      <%= f.text_field :login %></p>
+
+    <p><%= f.label :lastname %><br/>
+      <%= f.text_field :lastname %></p>
+
+    <p><%= f.label :firstname %><br/>
+      <%= f.text_field :firstname %></p>
+
+    <p><%= f.label :email %><br/>
+      <%= f.text_field :email %></p>
+
+    <p><%= f.label :password %><br/>
+      <%= f.password_field :password %></p>
+
+    <p><%= f.label :password_confirmation, 'Confirm Password' %><br/>
+      <%= f.password_field :password_confirmation %></p>
+
+    <p><%= submit_tag 'Sign up' %></p>
+
+    <p><%= flash[:oo_yy_ee] %></p>
+
+<% end -%>
