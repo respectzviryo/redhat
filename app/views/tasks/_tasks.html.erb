@@ -1,3 +1,12 @@
+<div class="tasks pinter">
+    <div class="check">Checked</div>
+    <div class="info" onclick=<%= look_on_click("title") %>>Title</div>
+    <div class="info" onclick=<%= look_on_click("description") %>>Description</div>
+    <div class="status" onclick=<%= look_on_click("status") %>>Status</div>
+    <div class="actions_title">Actions</div>
+    <div style="clear:both;"></div>
+</div>
+
 <div id="cont_<%= status %>">
   <% tasks.each do |task| %>
       <div id="tr_<%= task.id %>" class="tasks">

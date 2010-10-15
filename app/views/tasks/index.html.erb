@@ -8,16 +8,6 @@
 
 <br/><br/>
 <div>
-  <div class="tasks pinter">
-    <div class="check">Checked</div>
-    <div class="info" onclick=<%= look_on_click("title") %>>Title</div>
-    <div class="info" onclick=<%= look_on_click("description") %>>Description</div>
-    <div class="status" onclick=<%= look_on_click("status") %>>Status</div>
-    <div class="actions_title">Actions</div>
-    <div style="clear:both;"></div>
-
-  </div>
-
   <%= render :partial => "tasks", :locals => {:tasks => @tasks_started, :status => "new"} %>
   ____________________________________________________________________________________________________________
   <%= render :partial => "tasks", :locals => {:tasks => @tasks_finished, :status => "finished"} %>

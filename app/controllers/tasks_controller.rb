@@ -4,9 +4,11 @@ class TasksController < ApplicationController
   include Constants
 
   def index
+#  @tickets = Ticket.find(:all, :order => 'name')
     @categories = current_user.categories
     if params[:category_id]
       @tasks = current_user.tasks.by_category(params[:category_id])
+      
     end
     if (params[:category_id] == "all") || (params[:category_id] ==nil)
       @tasks = current_user.tasks
