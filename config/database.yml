@@ -5,7 +5,7 @@ development:
   database: user_base_development
   host: localhost
   username: root
-  password: password
+  password: 
   pool: 5
   timeout: 5000
 
