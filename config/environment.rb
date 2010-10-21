@@ -38,4 +38,9 @@ Rails::Initializer.run do |config|
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
+  config.gem 'test-unit', :lib => 'test/unit'
 end
+
+CONSUMER_KEY = "3MVG9WtWSKUDG.x460DyWrRcsAGygIX3064zLJZ.FEGF37Xs0Viv.2iMcqGYtu7fMi5drHw2cJLKHqUyCSMZC"
+CONSUMER_SECRET = "2697751937383528022"
+CALLBACK_URL = "https%3A%2F%2Fsalesforceplugin.dyndns.org%2Fsalesforce"

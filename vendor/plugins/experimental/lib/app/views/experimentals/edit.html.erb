@@ -1,0 +1,12 @@
+<h1>Editing experimental</h1>
+
+<% form_for(@experimental) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @experimental %> |
+<%= link_to 'Back', experimentals_path %>

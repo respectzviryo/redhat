@@ -1,0 +1,18 @@
+<h1>Listing experimentals</h1>
+
+<table>
+  <tr>
+  </tr>
+
+<% @experimentals.each do |experimental| %>
+  <tr>
+    <td><%= link_to 'Show', experimental %></td>
+    <td><%= link_to 'Edit', edit_experimental_path(experimental) %></td>
+    <td><%= link_to 'Destroy', experimental, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New experimental', new_experimental_path %>

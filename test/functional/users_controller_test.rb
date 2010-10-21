@@ -14,7 +14,7 @@ class UsersControllerTest < ActionController::TestCase
   def test_should_allow_signup
     assert_difference 'User.count' do
       create_user
-      assert_response :redirect
+      assert_response :success
     end
   end
 

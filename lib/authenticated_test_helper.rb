@@ -7,5 +7,10 @@ module AuthenticatedTestHelper
   def authorize_as(user)
     @request.env["HTTP_AUTHORIZATION"] = user ? ActionController::HttpAuthentication::Basic.encode_credentials(users(user).login, 'monkey') : nil
   end
+
+#  def current_user
+#    return nil unless @request.session[:user_id]
+#    return User.find(@request.session[:user_id])
+#  end
   
 end

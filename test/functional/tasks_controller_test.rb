@@ -1,6 +1,13 @@
 require 'test_helper'
 
 class TasksControllerTest < ActionController::TestCase
+  include AuthenticatedTestHelper
+  fixtures :users
+  
+  def setup
+    login_as(:quentin)
+  end
+  
   test "should get index" do
     get :index
     assert_response :success
@@ -40,6 +47,6 @@ class TasksControllerTest < ActionController::TestCase
       delete :destroy, :id => tasks(:one).to_param
     end
 
-    assert_redirected_to tasks_path
+    assert_response :success
   end
 end

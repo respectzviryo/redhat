@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <td>code</td>
+    <td><%=params["code"]%></td>
+  </tr>
+
+  <% @result["urls"].each do |k, v| %>
+      <tr>
+        <td><%= k %></td>
+        <td><%= v %></td>
+      </tr>
+
+  <% end %>
+
+
+  <tr>
+    <td>access token</td>
+    <td><%= @access_token %></td></tr>
+</table>

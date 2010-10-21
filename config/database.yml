@@ -4,8 +4,17 @@ development:
   adapter: mysql
   database: user_base_development
   host: localhost
-  username: root
+  user: root
   password: password
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: mysql
+  database: user_base_test
+  user: root
+  password: password
+  host: localhost
   pool: 5
   timeout: 5000
 

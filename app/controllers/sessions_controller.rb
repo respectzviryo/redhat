@@ -1,5 +1,6 @@
 # This controller handles the login/logout function of the site.  
 class SessionsController < ApplicationController
+#  ssl_required :new
 
   # render new.erb.html
   def new
@@ -32,7 +33,7 @@ class SessionsController < ApplicationController
     flash[:notice] = "You have been logged out."
     redirect_back_or_default('/')
   end
-
+                                 
 protected
   # Track failed login attempts
   def note_failed_signin user
