@@ -7,9 +7,9 @@ class SalesforceController < ApplicationController
   def index
     request_token = params["code"]
     http = Net::HTTP.new('login.salesforce.com', 443)
+    http.verify_mode = OpenSSL::SSL::VERIFY_NONE
     http.use_ssl = true
-    data = "grant_type=authorization_code&client_id=#{CONSUMER_KEY}&client_secret=#{CONSUMER_SECRET}&redirect_uri=#{CALLBACK_URL}" +
-            "&code=#{request_token}"
+    data = "grant_type=authorization_code&client_id=#{CONSUMER_KEY}&client_secret=#{CONSUMER_SECRET}&redirect_uri=#{CALLBACK_URL}&code=#{request_token}"
     path = "/services/oauth2/token"
     headers = {
             'Referer' => 'https://emea.salesforce.com/services/oauth2/token',

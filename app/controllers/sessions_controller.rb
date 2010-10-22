@@ -5,6 +5,9 @@ class SessionsController < ApplicationController
 
   # render new.erb.html
   def new
+    if current_user
+       redirect_to :controller => "leads", :action => "index"
+     end
   end
 
   def create
