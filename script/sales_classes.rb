@@ -480,6 +480,7 @@ class DescribeSObjectResult
     @urlEdit = urlEdit
     @urlNew = urlNew
   end
+
 end
 
 # {urn:partner.soap.sforce.com}DescribeGlobalSObjectResult

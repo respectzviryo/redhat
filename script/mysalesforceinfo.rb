@@ -6,13 +6,11 @@ require "json"
 require "sales_classes"
 
 
-
-
 wsdl_url = 'http://salesforceplugin.dyndns.org/wsdl/partner.wsdl'
 driver = SOAP::WSDLDriverFactory.new(wsdl_url).create_rpc_driver
 driver.wiredump_dev = STDERR
 res = driver.login("username" => "korpan.ievgenii@gmail.com", "password" => "Password2fBI6dhDP3OmYEiQbBJ6ewnvf")
-puts "--------------------------------------------------------------------------------------------" 
+puts "--------------------------------------------------------------------------------------------"
 
 data = res.result
 
@@ -45,7 +43,7 @@ class ClientAuthHeaderHandler < SOAP::Header::SimpleHandler
 
   def on_simple_outbound
     if @sessionid
-       {"sessionId" => @sessionid}
+      {"sessionId" => @sessionid}
     end
   end
 
@@ -56,7 +54,7 @@ end
 
 
 driver.headerhandler << ClientAuthHeaderHandler.new(data.sessionId.to_s)
-driver.endpoint_url = data.serverUrl.to_s 
+driver.endpoint_url = data.serverUrl.to_s
 
 
 res = driver.getUserInfo('')
@@ -69,16 +67,14 @@ my_query = Query.new("select FirstName, LastName, Id from Lead")
 res = driver.query(my_query);
 
 data = res.result
+hook = nil
 
 data.records.each do |record|
-  puts record.firstName.to_s + " " + record.lastName.to_s  
+  puts record.firstName.to_s + " " + record.lastName.to_s
+  hook = record if record.firstName = "hook"
 end
 
+puts "----------------------- removing lead ---------------"
+# not working for now
 
-#
-#
-#puts "----------------------- get actually leads ---------------"
-#
-#
-#res = driver.convertLead('');
-#
+#driver.delete("ID" => hook.id)
