@@ -9,8 +9,8 @@ require "sales_classes"
 wsdl_url = 'http://salesforceplugin.dyndns.org/wsdl/partner.wsdl'
 driver = SOAP::WSDLDriverFactory.new(wsdl_url).create_rpc_driver
 driver.wiredump_dev = STDERR
-#res = driver.login("username" => "korpan.ievgenii@gmail.com", "password" => "Password2fBI6dhDP3OmYEiQbBJ6ewnvf")
-puts "--------------------------------------------------------------------------------------------"
+res = driver.login("username" => "korpan.ievgenii@gmail.com", "password" => "Password2fBI6dhDP3OmYEiQbBJ6ewnvf")
+#puts "--------------------------------------------------------------------------------------------"
 #
 #data = res.result
 #
@@ -18,7 +18,7 @@ puts "--------------------------------------------------------------------------
 #puts "sandbox: " + data.sandbox.to_s
 #puts "metadataServerUrl: " + data.metadataServerUrl.to_s
 #puts "serverUrl: " + data.serverUrl.to_s
-
+#
 #puts "---User Info-----"
 #methods = ['accessibilityMode', 'currencySymbol', 'orgDefaultCurrencyIsoCode', 'orgDisallowHtmlAttachments', 'orgHasPersonAccounts',
 #           'organizationId', 'organizationMultiCurrency', 'organizationName', 'profileId', 'roleId', 'userDefaultCurrencyIsoCode',
@@ -29,36 +29,36 @@ puts "--------------------------------------------------------------------------
 #end
 #
 #
-puts "---------------------- next step is get user info with logged in user-------------"
-puts "---------------------- for this session id should be in header -------------"
-
-class ClientAuthHeaderHandler < SOAP::Header::SimpleHandler
-  MyHeaderName = XSD::QName.new("urn:partner.soap.sforce.com", "SessionHeader")
-  attr_accessor :sessionid
-
-  def initialize sessionid
-    super(MyHeaderName)
-    @sessionid = sessionid
-  end
-
-  def on_simple_outbound
-    if @sessionid
-      {"sessionId" => @sessionid}
-    end
-  end
-
-  def on_simple_inbound(my_header, mustunderstand)
-    @sessionid = my_header["sessionid"]
-  end
-end
-
-
-driver.headerhandler << ClientAuthHeaderHandler.new("00D20000000OIfH!AR4AQFcc_DfqfIGA8F3H6AqHdWgLMHtIoFbmEt31F8t3PD8fQxew.X0wGFhs_HPa850aT94zN2E2.y5Mqa6FH0mZA6uIQQWj")
-driver.endpoint_url = "https://eu0-api.salesforce.com/services/Soap/u/20.0/00D20000000OIfH"
-
-
-res = driver.getUserInfo('')
-puts res
+#puts "---------------------- next step is get user info with logged in user-------------"
+#puts "---------------------- for this session id should be in header -------------"
+#
+#class ClientAuthHeaderHandler < SOAP::Header::SimpleHandler
+#  MyHeaderName = XSD::QName.new("urn:partner.soap.sforce.com", "SessionHeader")
+#  attr_accessor :sessionid
+#
+#  def initialize sessionid
+#    super(MyHeaderName)
+#    @sessionid = sessionid
+#  end
+#
+#  def on_simple_outbound
+#    if @sessionid
+#      {"sessionId" => @sessionid}
+#    end
+#  end
+#
+#  def on_simple_inbound(my_header, mustunderstand)
+#    @sessionid = my_header["sessionid"]
+#  end
+#end
+#
+#
+#driver.headerhandler << ClientAuthHeaderHandler.new("00D20000000OIfH!AR4AQFcc_DfqfIGA8F3H6AqHdWgLMHtIoFbmEt31F8t3PD8fQxew.X0wGFhs_HPa850aT94zN2E2.y5Mqa6FH0mZA6uIQQWj")
+#driver.endpoint_url = "https://eu0-api.salesforce.com/services/Soap/u/20.0/00D20000000OIfH"
+#
+#
+#res = driver.getUserInfo('')
+#puts res
 #
 #puts "*************** get some data *******************"
 #

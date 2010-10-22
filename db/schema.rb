@@ -9,13 +9,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101014130303) do
+ActiveRecord::Schema.define(:version => 20101022141046) do
 
   create_table "categories", :force => true do |t|
     t.string   "category_name"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
+  end
+
+  create_table "experimentals", :force => true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "tasks", :force => true do |t|
@@ -42,6 +47,7 @@ ActiveRecord::Schema.define(:version => 20101014130303) do
     t.string   "firstname"
     t.string   "activation_code",           :limit => 40
     t.datetime "activated_at"
+    t.string   "request_token"
   end
 
   add_index "users", ["login"], :name => "index_users_on_login", :unique => true

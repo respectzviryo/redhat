@@ -20,7 +20,7 @@ class SessionsController < ApplicationController
       handle_remember_cookie! new_cookie_flag
  #     redirect_back_or_default('/')
       flash[:notice] = "Logged in successfully"
-      redirect_to :controller => 'tasks', :action => 'index'
+      redirect_to :controller => 'leads', :action => 'index'
     else
       note_failed_signin user
       @login       = params[:login]
