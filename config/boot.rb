@@ -84,6 +84,7 @@ module Rails
       def load_rubygems
         min_version = '1.3.2'
         require 'rubygems'
+        require_gem 'soap4r'
         unless rubygems_version >= min_version
           $stderr.puts %Q(Rails requires RubyGems >= #{min_version} (you have #{rubygems_version}). Please `gem update --system` and try again.)
           exit 1

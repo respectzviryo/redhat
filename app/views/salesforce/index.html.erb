@@ -4,7 +4,7 @@
     <td><%=params["code"]%></td>
   </tr>
 
-  <% @result["urls"].each do |k, v| %>
+  <% @result_from_identity_url["urls"].each do |k, v| %>
       <tr>
         <td><%= k %></td>
         <td><%= v %></td>
@@ -16,4 +16,16 @@
   <tr>
     <td>access token</td>
     <td><%= @access_token %></td></tr>
+</table>
+
+____________________________________________
+
+<table>
+  <% @result.each do |k, v| %>
+      <tr>
+        <td><%= k %></td>
+        <td><%= v %></td>
+      </tr>
+
+  <% end %>
 </table>

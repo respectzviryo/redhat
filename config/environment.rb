@@ -41,6 +41,6 @@ Rails::Initializer.run do |config|
   config.gem 'test-unit', :lib => 'test/unit'
 end
 
-CONSUMER_KEY = "3MVG9WtWSKUDG.x460DyWrRcsAGygIX3064zLJZ.FEGF37Xs0Viv.2iMcqGYtu7fMi5drHw2cJLKHqUyCSMZC"
-CONSUMER_SECRET = "2697751937383528022"
+CONSUMER_KEY = "3MVG9WtWSKUDG.x7m4iiXEeopOczNx5Ii8FOJsQgiNA.wtXtHjRngNMSpOZjJX8iHECm8LdrEJKl7VGgyxt9E"
+CONSUMER_SECRET = "845612600672883089"
 CALLBACK_URL = "https%3A%2F%2Fsalesforceplugin.dyndns.org%2Fsalesforce"

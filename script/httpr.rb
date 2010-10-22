@@ -23,9 +23,9 @@ require 'net/http'
 require 'net/https'
 require 'json'
 
-CONSUMER_KEY = "3MVG9WtWSKUDG.x460DyWrRcsAGygIX3064zLJZ.FEGF37Xs0Viv.2iMcqGYtu7fMi5drHw2cJLKHqUyCSMZC"
-CONSUMER_SECRET = "2697751937383528022"
-CALLBACK_URL = "https%3A%2F%2Fsalesforceplugin.dyndns.org%2Fsalesforce"
+#CONSUMER_KEY = "3MVG9WtWSKUDG.x460DyWrRcsAGygIX3064zLJZ.FEGF37Xs0Viv.2iMcqGYtu7fMi5drHw2cJLKHqUyCSMZC"
+#CONSUMER_SECRET = "2697751937383528022"
+#CALLBACK_URL = "https%3A%2F%2Fsalesforceplugin.dyndns.org%2Fsalesforce"
 
 
 authorization_code = "aPrxDtC6R2ZDACGRUMBJs4CsK3lhmMRgfmxRailZ0Os3y2aYf_o0qrttpQjWARM%3D"

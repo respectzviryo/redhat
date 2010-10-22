@@ -30,7 +30,7 @@ class SalesforceController < ActionController::Base
     http = Net::HTTP.new("emea.salesforce.com", 443)
     http.use_ssl = true
     resp, data = http.get(identity_url + "?oauth_token=#{@access_token}&version=17.0", nil)
-    @result = JSON.parse(data)
+    @result_from_identity_url = JSON.parse(data)
 
 
 #    resp, data = http.get(path + "?oauth_token=#{access_token}", nil)

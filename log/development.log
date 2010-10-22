@@ -25504,3 +25504,434 @@ Processing SalesforceController#index (for 78.137.36.22 at 2010-10-21 16:11:00) 
   Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK0Lso88YkAY8HxnKo9fB9za1W4zRAngbVL0lesgnXmnENyZ5sw==", "state"=>"OK"}
 Rendering salesforce/index
 Completed in 2156ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK0Lso88YkAY8HxnKo9fB9za1W4zRAngbVL0lesgnXmnENyZ5sw%3D%3D&state=OK]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 10.12.8.115 at 2010-10-21 17:10:16) [OPTIONS]
+Redirected to https://EUGENEK-PC/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://EUGENEK-PC/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.22 at 2010-10-21 18:41:10) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.22 at 2010-10-21 18:41:21) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsKy27tsHGC7qv4nIeiqNQwl5GATXgu4bMY3OrR.U=", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 1969ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsKy27tsHGC7qv4nIeiqNQwl5GATXgu4bMY3OrR.U%3D&state=OK]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.22 at 2010-10-21 19:02:30) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.22 at 2010-10-21 19:02:34) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK_72YjgTE8Fc5oBjpMujd170yV92ek43GcSIOus=", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 2016ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK_72YjgTE8Fc5oBjpMujd170yV92ek43GcSIOus%3D&state=OK]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.252.117.11 at 2010-10-21 19:33:41) [GET]
+  Parameters: {"x"=>"x"}
+
+ActionController::RoutingError (No route matches "/user/soapCaller.bs" with {:method=>:get}):
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_load'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_program'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/bin/rdebug-ide:82
+  C:\ruby_1_8_6\bin/rdebug-ide:19:in `load'
+  C:\ruby_1_8_6\bin/rdebug-ide:19
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 85.190.0.3 at 2010-10-21 22:08:48) [GET]
+
+ActionController::RoutingError (No route matches "/proxy.txt" with {:method=>:get}):
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_load'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_program'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/bin/rdebug-ide:82
+  C:\ruby_1_8_6\bin/rdebug-ide:19:in `load'
+  C:\ruby_1_8_6\bin/rdebug-ide:19
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+/!\ FAILSAFE /!\  Thu Oct 21 22:08:48 +0300 2010
+  Status: 500 Internal Server Error
+  CONNECT, accepted HTTP methods are get, head, put, post, delete, and options
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/request.rb:35:in `request_method'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/request.rb:43:in `method'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1313:in `log_processing_for_request_id'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1305:in `log_processing'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:531:in `process_without_filters'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    C:/ruby_1_8_6/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/ruby_1_8_6/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    D:/projects/redhat/script/server:3
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_load'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_program'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/bin/rdebug-ide:82
+    C:\ruby_1_8_6\bin/rdebug-ide:19:in `load'
+    C:\ruby_1_8_6\bin/rdebug-ide:19
+    -e:1:in `load'
+    -e:1
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+/!\ FAILSAFE /!\  Thu Oct 21 22:08:48 +0300 2010
+  Status: 500 Internal Server Error
+  CONNECT, accepted HTTP methods are get, head, put, post, delete, and options
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/request.rb:35:in `request_method'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/request.rb:43:in `method'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1313:in `log_processing_for_request_id'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1305:in `log_processing'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:531:in `process_without_filters'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    C:/ruby_1_8_6/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/ruby_1_8_6/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    D:/projects/redhat/script/server:3
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_load'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_program'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/bin/rdebug-ide:82
+    C:\ruby_1_8_6\bin/rdebug-ide:19:in `load'
+    C:\ruby_1_8_6\bin/rdebug-ide:19
+    -e:1:in `load'
+    -e:1
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+/!\ FAILSAFE /!\  Thu Oct 21 22:08:48 +0300 2010
+  Status: 500 Internal Server Error
+  CONNECT, accepted HTTP methods are get, head, put, post, delete, and options
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/request.rb:35:in `request_method'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/request.rb:43:in `method'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1313:in `log_processing_for_request_id'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1305:in `log_processing'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:531:in `process_without_filters'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    C:/ruby_1_8_6/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/ruby_1_8_6/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    D:/projects/redhat/script/server:3
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_load'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_program'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/bin/rdebug-ide:82
+    C:\ruby_1_8_6\bin/rdebug-ide:19:in `load'
+    C:\ruby_1_8_6\bin/rdebug-ide:19
+    -e:1:in `load'
+    -e:1
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 85.190.0.3 at 2010-10-21 22:08:48) [GET]
+
+ActionController::RoutingError (No route matches "/proxy.txt" with {:method=>:get}):
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_load'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_program'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/bin/rdebug-ide:82
+  C:\ruby_1_8_6\bin/rdebug-ide:19:in `load'
+  C:\ruby_1_8_6\bin/rdebug-ide:19
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 85.190.0.3 at 2010-10-21 22:08:48) [POST]
+
+ActionController::RoutingError (No route matches "/proxy.txt" with {:method=>:post}):
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_load'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_program'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/bin/rdebug-ide:82
+  C:\ruby_1_8_6\bin/rdebug-ide:19:in `load'
+  C:\ruby_1_8_6\bin/rdebug-ide:19
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (94.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 09:01:47) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 641ms (View: 641, DB: 94) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 09:03:16) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 09:03:41) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 09:05:42) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 09:06:57) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 09:09:11) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 09:09:27) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 09:09:44) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK9NUBLw4t4sC4xrHTfIaj_sBHDdVTNK3rlsb6RLkH916V8OF4A==", "state"=>"OK"}
+Rendering salesforce/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #7 of app/views/salesforce/index.html.erb:
+4:     <td><%=params["code"]%></td>
+5:   </tr>
+6: 
+7:   <% @result["urls"].each do |k, v| %>
+8:       <tr>
+9:         <td><%= k %></td>
+10:         <td><%= v %></td>
+
+    app/views/salesforce/index.html.erb:7
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_load'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_program'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/bin/rdebug-ide:82
+    C:\ruby_1_8_6\bin/rdebug-ide:19:in `load'
+    C:\ruby_1_8_6\bin/rdebug-ide:19
+    -e:1:in `load'
+    -e:1
+
+Rendered rescues/_trace (79.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 09:10:05) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK9NUBLw4t4sC4xrHTfIaj_sBHDdVTNK3rlsb6RLkH916V8OF4A==", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 1421ms (View: 109, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK9NUBLw4t4sC4xrHTfIaj_sBHDdVTNK3rlsb6RLkH916V8OF4A%3D%3D&state=OK]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 09:10:16) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK.AMIQHECAg4.Uy1hlt9uU6Bd89H0bonji_Vb5Oxh1kxPFBjng==", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 1453ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK.AMIQHECAg4.Uy1hlt9uU6Bd89H0bonji_Vb5Oxh1kxPFBjng%3D%3D&state=OK]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 09:14:40) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 09:14:42) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK7jNLsNg83zDz78UI4C1b1ZCJs9dYIuIdTC.n9hGYE3yhzyTxQ==", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 1922ms (View: 15, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK7jNLsNg83zDz78UI4C1b1ZCJs9dYIuIdTC.n9hGYE3yhzyTxQ%3D%3D&state=OK]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 10:19:15) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 10:24:22) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 10:27:49) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 11:51:56) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 12:06:41) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 12:06:45) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK.txj_irdhydIkwA_ukadExNS7CxeXQ7E_Ds7VvLu40yrMreBA==", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 4125ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK.txj_irdhydIkwA_ukadExNS7CxeXQ7E_Ds7VvLu40yrMreBA%3D%3D&state=OK]
