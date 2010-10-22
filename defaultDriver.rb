@@ -1,4 +1,4 @@
-require 'default.rb'
+require 'salesforce.rb'
 require 'defaultMappingRegistry.rb'
 require 'soap/rpc/driver'
 

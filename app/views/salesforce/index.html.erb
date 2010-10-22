@@ -1,31 +1,16 @@
+<h3>Leads</h3>
+
 <table>
   <tr>
-    <td>code</td>
-    <td><%=params["code"]%></td>
+    <td><b>First name</b></td>
+    <td><b>Last name</b></td>
   </tr>
 
-  <% @result_from_identity_url["urls"].each do |k, v| %>
+  <% @data.records.each do |record| %>
       <tr>
-        <td><%= k %></td>
-        <td><%= v %></td>
+        <td><%= record.firstName %></td>
+        <td><%= record.lastName %></td>
       </tr>
-
   <% end %>
 
-
-  <tr>
-    <td>access token</td>
-    <td><%= @access_token %></td></tr>
-</table>
-
-____________________________________________
-
-<table>
-  <% @result.each do |k, v| %>
-      <tr>
-        <td><%= k %></td>
-        <td><%= v %></td>
-      </tr>
-
-  <% end %>
 </table>

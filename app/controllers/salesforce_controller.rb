@@ -1,8 +1,12 @@
 require 'json'
 require 'net/http'
 require 'net/https'
+require 'soap/rpc/driver'
+require 'soap/wsdlDriver'
+require 'soap/header/simplehandler'
 class SalesforceController < ActionController::Base
   include SslRequirement
+  include Salesforce
 
   ssl_required :index
 
@@ -20,21 +24,39 @@ class SalesforceController < ActionController::Base
     resp, data = http.post(path, data, headers)
     puts 'Code = ' + resp.code
 
-    @result = JSON.parse(data)
-#    instance_url = result["instance_url"]
-#    refresh_token = result["refresh_token"]
-    @access_token = @result["access_token"]
-    identity_url = @result["id"]
-    identity_url=identity_url.gsub("login", "emea")
+    result = JSON.parse(data)
+    access_token = result["access_token"]
 
-    http = Net::HTTP.new("emea.salesforce.com", 443)
-    http.use_ssl = true
-    resp, data = http.get(identity_url + "?oauth_token=#{@access_token}&version=17.0", nil)
-    @result_from_identity_url = JSON.parse(data)
+    # soap settings
+    wsdl_url = 'http://salesforceplugin.dyndns.org/wsdl/partner.wsdl'
+    driver = SOAP::WSDLDriverFactory.new(wsdl_url).create_rpc_driver
+    driver.wiredump_dev = STDERR
+
+    driver.headerhandler << ClientAuthHeaderHandler.new(access_token)
+    driver.endpoint_url = "https://eu0-api.salesforce.com/services/Soap/u/20.0/00D20000000OIfH"
+    my_query = Query.new("select FirstName, LastName, Id from Lead")
+    @data = driver.query(my_query).result;
+
+  end
+end
 
 
-#    resp, data = http.get(path + "?oauth_token=#{access_token}", nil)
+class ClientAuthHeaderHandler < SOAP::Header::SimpleHandler
+  MyHeaderName = XSD::QName.new("urn:partner.soap.sforce.com", "SessionHeader")
+  attr_accessor :sessionid
 
-#    render :text => access_token + "<br/>"  + authorization_code
+  def initialize sessionid
+    super(MyHeaderName)
+    @sessionid = sessionid
+  end
+
+  def on_simple_outbound
+    if @sessionid
+      {"sessionId" => @sessionid}
+    end
+  end
+
+  def on_simple_inbound(my_header, mustunderstand)
+    @sessionid = my_header["sessionid"]
   end
 end

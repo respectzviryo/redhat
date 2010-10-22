@@ -25935,3 +25935,244 @@ Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 12:06:45)
   Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK.txj_irdhydIkwA_ukadExNS7CxeXQ7E_Ds7VvLu40yrMreBA==", "state"=>"OK"}
 Rendering salesforce/index
 Completed in 4125ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK.txj_irdhydIkwA_ukadExNS7CxeXQ7E_Ds7VvLu40yrMreBA%3D%3D&state=OK]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 13:30:39) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 13:30:43) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsKzVnImCmB5uo1IAcW.Ikd96OP9BmNa2E1VVpwejyagid9S8Hvw==", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 1922ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsKzVnImCmB5uo1IAcW.Ikd96OP9BmNa2E1VVpwejyagid9S8Hvw%3D%3D&state=OK]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 13:32:14) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 13:32:17) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK9rPjMzzRWLLmbhKrzy5bGfNLaBNhBNde.8CCWU=", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 1859ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK9rPjMzzRWLLmbhKrzy5bGfNLaBNhBNde.8CCWU%3D&state=OK]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:03:09) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 15:03:13) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK336eoBG458G028Luo1IPP_kzfrj_g3OaQtRUyY=", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 1969ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK336eoBG458G028Luo1IPP_kzfrj_g3OaQtRUyY%3D&state=OK]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:12:49) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 15:12:55) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK5dby6iMnIyNAPhs4NwKLFfwZA92Ak.p001JlxsdIIINoTgtFQ==", "state"=>"OK"}
+
+NameError (uninitialized constant SalesforceController::Query):
+  app/controllers/salesforce_controller.rb:36:in `index'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_load'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_program'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/bin/rdebug-ide:82
+  C:\ruby_1_8_6\bin/rdebug-ide:19:in `load'
+  C:\ruby_1_8_6\bin/rdebug-ide:19
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:14:01) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 78.137.36.146 at 2010-10-22 15:14:04) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK08QINuJX3iXNQermp51AIQPMYJUc0UA.s3e6In78uyRseco7A==", "state"=>"OK"}
+
+NameError (uninitialized constant SalesforceController::Salesforce):
+  app/controllers/salesforce_controller.rb:9
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_load'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_program'
+  C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/bin/rdebug-ide:82
+  C:\ruby_1_8_6\bin/rdebug-ide:19:in `load'
+  C:\ruby_1_8_6\bin/rdebug-ide:19
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 78.137.36.146 at 2010-10-22 15:16:22) [GET]
+Redirected to http://salesforceplugin.dyndns.org/sessions/new
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/sessions/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 78.137.36.146 at 2010-10-22 15:16:22) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 343ms (View: 328, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/sessions/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:16:28) [GET]
+Redirected to https://salesforceplugin.dyndns.org/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:16:28) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:17:54) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 63ms (View: 63, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 15:18:00) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK5vd1_grYVSPeu6exwcpljD2YuDu9K7goyxO.jKiFrRDB_ojPQ==", "state"=>"OK"}
+Rendering salesforce/index
+
+ActionView::TemplateError (undefined method `records' for #<SOAP::Mapping::Object:0xa37b9b4>) on line #9 of app/views/salesforce/index.html.erb:
+6:     <td>Last name</td>
+7:   </tr>
+8: 
+9:   <% @data.records.each do |record| %>
+10:       <tr>
+11:         <td><%= record.firstName %></td>
+12:         <td><%= record.lastName %></td>
+
+    app/views/salesforce/index.html.erb:9
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_load'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/lib/ruby-debug.rb:101:in `debug_program'
+    C:/ruby_1_8_6/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.4/bin/rdebug-ide:82
+    C:\ruby_1_8_6\bin/rdebug-ide:19:in `load'
+    C:\ruby_1_8_6\bin/rdebug-ide:19
+    -e:1:in `load'
+    -e:1
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:18:47) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 15:18:49) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK2yyCal7MODFjjsvcVDCZtGoo_8d0LZ.cPysc.yrrqc..W1IxA==", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 3656ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK2yyCal7MODFjjsvcVDCZtGoo_8d0LZ.cPysc.yrrqc..W1IxA%3D%3D&state=OK]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:19:32) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 15:19:35) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK0J6a._3ULjaPnwQEmvIGrFgdDVgxGTOC3LqBZA_qCpi7la.bw==", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 2500ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK0J6a._3ULjaPnwQEmvIGrFgdDVgxGTOC3LqBZA_qCpi7la.bw%3D%3D&state=OK]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:22:40) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 15ms (View: 15, DB: 15) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 15:22:52) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK2StmiogDC_jnrp_akVnw0FjoXdNqmqOkq9_KUhtuSmkhMoPdA==", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 2515ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK2StmiogDC_jnrp_akVnw0FjoXdNqmqOkq9_KUhtuSmkhMoPdA%3D%3D&state=OK]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:24:33) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:26:19) [GET]
+Redirected to https://salesforceplugin.dyndns.org/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:26:19) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 172ms (View: 172, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 15:28:08) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsKz1vuYAB0M.jGFGQ6vfg2ACOXm2Fb.IoGSXJF8DCuq29fYzd9A==", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 2985ms (View: 31, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsKz1vuYAB0M.jGFGQ6vfg2ACOXm2Fb.IoGSXJF8DCuq29fYzd9A%3D%3D&state=OK]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.36.146 at 2010-10-22 15:32:29) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 562ms (View: 562, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforceController#index (for 78.137.36.146 at 2010-10-22 15:32:34) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK.pNLgZnZ_bNU7RdcoIwF4etBignegaLJ_LM_6I=", "state"=>"OK"}
+Rendering salesforce/index
+Completed in 2578ms (View: 0, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/salesforce?code=aPrxDtC6R2ZDACGRUMBJs4CsK.pNLgZnZ_bNU7RdcoIwF4etBignegaLJ_LM_6I%3D&state=OK]
