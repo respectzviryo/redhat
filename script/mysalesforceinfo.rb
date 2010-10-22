@@ -3,6 +3,9 @@ require 'soap/rpc/driver'
 require 'soap/wsdlDriver'
 require 'soap/header/simplehandler'
 require "json"
+require "sales_classes"
+
+
 
 
 wsdl_url = 'http://salesforceplugin.dyndns.org/wsdl/partner.wsdl'
@@ -58,3 +61,24 @@ driver.endpoint_url = data.serverUrl.to_s
 
 res = driver.getUserInfo('')
 puts res
+
+puts "*************** get some data *******************"
+
+my_query = Query.new("select FirstName, LastName, Id from Lead")
+
+res = driver.query(my_query);
+
+data = res.result
+
+data.records.each do |record|
+  puts record.firstName.to_s + " " + record.lastName.to_s  
+end
+
+
+#
+#
+#puts "----------------------- get actually leads ---------------"
+#
+#
+#res = driver.convertLead('');
+#
