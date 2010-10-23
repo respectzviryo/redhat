@@ -1,15 +1,22 @@
 <h3>Leads</h3>
 
+<div style="font-style:italic; color:green;">
+  <%= flash[:info] %>
+</div>
+<br/>
+
 <table>
   <tr>
     <td><b>First name</b></td>
     <td><b>Last name</b></td>
   </tr>
 
-  <% @data.records.each do |record| %>
+  <% @data.records.each_with_index do |record, i| %>
       <tr>
+        <td><%= i %></td>
         <td><%= record.firstName %></td>
         <td><%= record.lastName %></td>
+        <td><%= link_to "delete", {:controller => :leads, :action=> :destroy, :lead_id => record.id.to_s} %></td>
       </tr>
   <% end %>
 

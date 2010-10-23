@@ -1,3 +1,4 @@
+require 'oauth'
 class LeadsController < ApplicationController
 
   include SslRequirement
@@ -5,7 +6,6 @@ class LeadsController < ApplicationController
   ssl_required :index
 
   def index
-
   end
 
   def show_all_leads
@@ -13,9 +13,19 @@ class LeadsController < ApplicationController
       @data = Salesforce::GetLeadsCmd.new(current_user.request_token).execute
       render :template => "salesforce/index"
     else
-      redirect_to salesforce_url 
+#      redirect_user_for_verification # used in OAuth 1.0
+      redirect_to salesforce_url
     end
 
+  end
+
+  def destroy
+    access_token = current_user.request_token
+    delete_cmd = Salesforce::DeleteLeadCmd.new(params[:lead_id], access_token)
+    deleted = delete_cmd.execute
+    flash[:info] = deleted ? "Lead was successfully deleted" : "Could not delete lead due to some error"
+    @data = Salesforce::GetLeadsCmd.new(access_token).execute
+    render :template => "salesforce/index"
   end
 
   private
@@ -26,7 +36,7 @@ class LeadsController < ApplicationController
             "client_id" => consumer_key,
             "redirect_uri" => callback_url,
             "state" => "OK"
-            }
+    }
 
     Constants::SALERSFORCE_AUTHORIZATION_EDNPOINT + convert_hash_to_string_params(params)
   end
@@ -34,9 +44,28 @@ class LeadsController < ApplicationController
 
   def convert_hash_to_string_params params
     result = ""
-    params.each{|k, v| result += "&#{k}=#{v}" }
+    params.each { |k, v| result += "&#{k}=#{v}" }
     result[0] = "?"
     return result
+  end
+
+  private
+
+  def redirect_user_for_verification
+    oauth_options = {
+            :site => 'https://login.salesforce.com',
+            :scheme => :body,
+            :request_token_path => '/_nc_external/system/security/oauth/RequestTokenHandler',
+            :authorize_path => '/setup/secur/RemoteAccessAuthorizationPage.apexp',
+            :access_token_path => '/_nc_external/system/security/oauth/AccessTokenHandler',
+            }
+    consumer = OAuth::Consumer.new consumer_key, consumer_secret, oauth_options
+    consumer.http.set_debug_output STDERR
+    request = consumer.get_request_token
+    session[:request] = request 
+    # set request to user to be able to use it in other controllers
+    authorize_url = request.authorize_url :oauth_consumer_key => consumer_key
+    redirect_to authorize_url 
   end
 
 end

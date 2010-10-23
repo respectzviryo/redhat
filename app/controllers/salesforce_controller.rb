@@ -23,6 +23,6 @@ class SalesforceController < ApplicationController
     current_user.save
 
     @data = Salesforce::GetLeadsCmd.new(access_token).execute
-
+#     @data = Salesforce::GetLeadByRforce.new(access_token).execute
   end
 end

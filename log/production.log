@@ -1,0 +1,265 @@
+
+
+Processing SessionsController#new (for 78.137.36.16 at 2010-10-22 19:37:38) [GET]
+Redirected to http://salesforceplugin.dyndns.org/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/]
+
+
+Processing SessionsController#new (for 78.137.36.16 at 2010-10-22 19:37:38) [GET]
+Redirected to http://salesforceplugin.dyndns.org/leads
+Completed in 109ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/]
+
+
+Processing LeadsController#index (for 78.137.36.16 at 2010-10-22 19:37:38) [GET]
+Redirected to https://salesforceplugin.dyndns.org/leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/leads]
+
+
+Processing LeadsController#index (for 78.137.36.16 at 2010-10-22 19:37:38) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/leads]
+
+
+Processing LeadsController#show_all_leads (for 78.137.36.16 at 2010-10-22 19:37:40) [GET]
+Redirected to http://salesforceplugin.dyndns.org/leads/show_all_leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/leads/show_all_leads]
+
+
+Processing LeadsController#show_all_leads (for 78.137.36.16 at 2010-10-22 19:37:40) [GET]
+Redirected to https://login.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9WtWSKUDG.x460DyWrRcsAM4ugu_KXeJ3JtK7b5KRnnFu0ESTSHPtX1L5sVY.xb3qhORxgF0xbVzUTIvo&redirect_uri=https%3A%2F%2Fsalesforceplugin.dyndns.org%2Fsalesforce&state=OK
+Completed in 31ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/leads/show_all_leads]
+
+
+Processing SalesforceController#index (for 78.137.36.16 at 2010-10-22 19:37:41) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsKwRdSVn3nJ17C8RVe88wxv3mq_x47q25EbmYFKE=", "state"=>"OK"}
+
+Timeout::Error (execution expired):
+  C:/ruby_1_8_6/lib/ruby/1.8/timeout.rb:60:in `rbuf_fill'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:132:in `rbuf_fill'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:116:in `readuntil'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:126:in `readline'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:2018:in `read_status_line'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:2007:in `read_new'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1049:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1037:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:543:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1035:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:845:in `post'
+  app/controllers/salesforce_controller.rb:17:in `index'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:1:in `load'
+  -e:1
+
+Rendering D:/projects/redhat/public/500.html (500 Internal Server Error)
+
+
+Processing SessionsController#new (for 78.137.36.16 at 2010-10-22 19:38:55) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://78.137.36.16/]
+
+
+Processing SessionsController#create (for 78.137.36.16 at 2010-10-22 19:39:01) [POST]
+  Parameters: {"commit"=>"Log in", "login"=>"eugene", "password"=>"1"}
+Redirected to http://78.137.36.16/leads
+Completed in 47ms (DB: 0) | 302 Found [http://78.137.36.16/session]
+
+
+Processing LeadsController#index (for 78.137.36.16 at 2010-10-22 19:39:01) [GET]
+Redirected to https://78.137.36.16/leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://78.137.36.16/leads]
+
+
+Processing LeadsController#index (for 78.137.36.16 at 2010-10-22 19:39:03) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [https://78.137.36.16/leads]
+
+
+Processing LeadsController#show_all_leads (for 78.137.36.16 at 2010-10-22 19:39:05) [GET]
+Redirected to http://78.137.36.16/leads/show_all_leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://78.137.36.16/leads/show_all_leads]
+
+
+Processing LeadsController#show_all_leads (for 78.137.36.16 at 2010-10-22 19:39:05) [GET]
+Redirected to https://login.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9WtWSKUDG.x460DyWrRcsAM4ugu_KXeJ3JtK7b5KRnnFu0ESTSHPtX1L5sVY.xb3qhORxgF0xbVzUTIvo&redirect_uri=https%3A%2F%2Fsalesforceplugin.dyndns.org%2Fsalesforce&state=OK
+Completed in 47ms (DB: 0) | 302 Found [http://78.137.36.16/leads/show_all_leads]
+
+
+Processing SalesforceController#index (for 78.137.36.16 at 2010-10-22 19:39:06) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK_S59A6qn16_eMs2imtLjoWakJ1DX_bJeZ_RI34StUTj7z5fUg==", "state"=>"OK"}
+
+Timeout::Error (execution expired):
+  C:/ruby_1_8_6/lib/ruby/1.8/timeout.rb:60:in `rbuf_fill'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:132:in `rbuf_fill'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:116:in `readuntil'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:126:in `readline'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:2018:in `read_status_line'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:2007:in `read_new'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1049:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1037:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:543:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1035:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:845:in `post'
+  app/controllers/salesforce_controller.rb:17:in `index'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:1:in `load'
+  -e:1
+
+Rendering D:/projects/redhat/public/500.html (500 Internal Server Error)
+
+
+Processing SessionsController#new (for 78.137.36.16 at 2010-10-22 19:40:55) [GET]
+Redirected to http://salesforceplugin.dyndns.org/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/]
+
+
+Processing SessionsController#new (for 78.137.36.16 at 2010-10-22 19:40:55) [GET]
+Redirected to http://salesforceplugin.dyndns.org/leads
+Completed in 94ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/]
+
+
+Processing LeadsController#index (for 78.137.36.16 at 2010-10-22 19:40:55) [GET]
+Redirected to https://salesforceplugin.dyndns.org/leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/leads]
+
+
+Processing LeadsController#index (for 78.137.36.16 at 2010-10-22 19:40:55) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/leads]
+
+
+Processing LeadsController#show_all_leads (for 78.137.36.16 at 2010-10-22 19:40:56) [GET]
+Redirected to http://salesforceplugin.dyndns.org/leads/show_all_leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/leads/show_all_leads]
+
+
+Processing LeadsController#show_all_leads (for 78.137.36.16 at 2010-10-22 19:40:56) [GET]
+Redirected to https://login.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9WtWSKUDG.x460DyWrRcsAM4ugu_KXeJ3JtK7b5KRnnFu0ESTSHPtX1L5sVY.xb3qhORxgF0xbVzUTIvo&redirect_uri=https%3A%2F%2Fsalesforceplugin.dyndns.org%2Fsalesforce&state=OK
+Completed in 47ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/leads/show_all_leads]
+
+
+Processing SalesforceController#index (for 78.137.36.16 at 2010-10-22 19:40:57) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsK_AOjA_wa2fK_vEvC64ODr4EdVbTiTfVXwIivNxPEQiym.lt4Q==", "state"=>"OK"}
+
+Timeout::Error (execution expired):
+  C:/ruby_1_8_6/lib/ruby/1.8/timeout.rb:60:in `rbuf_fill'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:132:in `rbuf_fill'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:116:in `readuntil'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:126:in `readline'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:2018:in `read_status_line'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:2007:in `read_new'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1049:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1037:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:543:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1035:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:845:in `post'
+  app/controllers/salesforce_controller.rb:18:in `index'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:1:in `load'
+  -e:1
+
+Rendering D:/projects/redhat/public/500.html (500 Internal Server Error)
+
+
+Processing SessionsController#new (for 78.137.36.16 at 2010-10-22 19:47:38) [GET]
+Redirected to http://salesforceplugin.dyndns.org/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/]
+
+
+Processing SessionsController#new (for 78.137.36.16 at 2010-10-22 19:47:38) [GET]
+Redirected to http://salesforceplugin.dyndns.org/leads
+Completed in 47ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/]
+
+
+Processing LeadsController#index (for 78.137.36.16 at 2010-10-22 19:47:38) [GET]
+Redirected to https://salesforceplugin.dyndns.org/leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/leads]
+
+
+Processing LeadsController#index (for 78.137.36.16 at 2010-10-22 19:47:38) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/leads]
+
+
+Processing LeadsController#show_all_leads (for 78.137.36.16 at 2010-10-22 19:47:40) [GET]
+Redirected to http://salesforceplugin.dyndns.org/leads/show_all_leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/leads/show_all_leads]
+
+
+Processing LeadsController#show_all_leads (for 78.137.36.16 at 2010-10-22 19:47:40) [GET]
+Redirected to https://login.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9WtWSKUDG.x460DyWrRcsAM4ugu_KXeJ3JtK7b5KRnnFu0ESTSHPtX1L5sVY.xb3qhORxgF0xbVzUTIvo&redirect_uri=https%3A%2F%2Fsalesforceplugin.dyndns.org%2Fsalesforce&state=OK
+Completed in 31ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/leads/show_all_leads]
+
+
+Processing SalesforceController#index (for 78.137.36.16 at 2010-10-22 19:47:42) [GET]
+  Parameters: {"code"=>"aPrxDtC6R2ZDACGRUMBJs4CsKynfVFQDzFag__Aa9q8syTAVHwZWXLCFdOzOcqBoYRlbhfqZtQ==", "state"=>"OK"}
+
+Timeout::Error (execution expired):
+  C:/ruby_1_8_6/lib/ruby/1.8/timeout.rb:60:in `rbuf_fill'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:132:in `rbuf_fill'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:116:in `readuntil'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/protocol.rb:126:in `readline'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:2018:in `read_status_line'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:2007:in `read_new'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1049:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1037:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:543:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:1035:in `request'
+  C:/ruby_1_8_6/lib/ruby/1.8/net/http.rb:845:in `post'
+  app/controllers/salesforce_controller.rb:18:in `index'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby_1_8_6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:1:in `load'
+  -e:1
+
+Rendering D:/projects/redhat/public/500.html (500 Internal Server Error)
