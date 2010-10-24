@@ -15,7 +15,7 @@ module Salesforce
         driver = SOAP::WSDLDriverFactory.new(SALESFORCE_WSDL).create_rpc_driver
         driver.wiredump_dev = STDERR
         driver.headerhandler << Salesforce::ClientAuthHeaderHandler.new(access_token)
-        driver.endpoint_url = "https://eu0-api.salesforce.com/services/Soap/u/20.0/00D20000000OIfH"
+        driver.endpoint_url = ENDPOINT_URL
 
         delete = Delete.new.push(lead_id)
 

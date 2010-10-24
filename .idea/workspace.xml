@@ -9,14 +9,11 @@
   </component>
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="1baf82a3-0a46-4890-8c0d-9e925954ed80" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/defaultMappingRegistry.rb" afterPath="$PROJECT_DIR$/lib/defaultMappingRegistry.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/salesforce/index.html.erb" afterPath="$PROJECT_DIR$/app/views/salesforce/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/salesforce/update_lead_cmd.rb" afterPath="$PROJECT_DIR$/lib/salesforce/update_lead_cmd.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/leads/edit.html.erb" />
-      <change type="DELETED" beforePath="D:\projects\redhat\lib\client_auth_header_handler.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/SforceServiceClient.rb" afterPath="$PROJECT_DIR$/lib/SforceServiceClient.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/leads_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/leads_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/create.rb" afterPath="$PROJECT_DIR$/lib/create.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/salesforce/delete_lead_cmd.rb" afterPath="$PROJECT_DIR$/lib/salesforce/delete_lead_cmd.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/salesforce/get_leads_cmd.rb" afterPath="$PROJECT_DIR$/lib/salesforce/get_leads_cmd.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/redhat.iml" afterPath="$PROJECT_DIR$/.idea/redhat.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
@@ -52,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_lead_cmd.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="update_lead_cmd.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/salesforce/update_lead_cmd.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -64,7 +61,7 @@
       <file leaf-file-name="get_leads_cmd.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/salesforce/get_leads_cmd.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="42" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
+            <state line="23" column="40" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,7 +70,7 @@
       <file leaf-file-name="create.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/create.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="11" selection-start="1122" selection-end="1751" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="115" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,19 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="environment.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="15" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sales_classes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/sales_classes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="6" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+            <state line="48" column="12" selection-start="2364" selection-end="2364" vertical-scroll-proportion="1.7149644">
               <folding />
             </state>
           </provider>
@@ -110,6 +98,15 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/leads_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="39" column="25" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_lead_cmd.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/salesforce/delete_lead_cmd.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="72" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,20 +142,20 @@
       <list>
         <option value="$PROJECT_DIR$/app/controllers/salesforce_controller.rb" />
         <option value="$PROJECT_DIR$/lib/salesforce/client_auth_header_handler.rb" />
-        <option value="$PROJECT_DIR$/lib/salesforce/delete_lead_cmd.rb" />
         <option value="C:/Ruby187/lib/ruby/1.8/soap/mapping.rb" />
         <option value="$PROJECT_DIR$/lib/defaultMappingRegistry.rb" />
-        <option value="$PROJECT_DIR$/lib/salesforce/get_leads_cmd.rb" />
         <option value="$PROJECT_DIR$/lib/salesforce.rb" />
         <option value="$PROJECT_DIR$/lib/SforceServiceClient.rb" />
         <option value="$PROJECT_DIR$/app/views/leads/edit.html.erb" />
         <option value="$PROJECT_DIR$/script/create.rb" />
-        <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/lib/salesforce/create_lead_cmd.rb" />
-        <option value="$PROJECT_DIR$/lib/create.rb" />
         <option value="$PROJECT_DIR$/app/controllers/leads_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/salesforce/index.html.erb" />
+        <option value="$PROJECT_DIR$/lib/salesforce/get_leads_cmd.rb" />
+        <option value="$PROJECT_DIR$/lib/salesforce/delete_lead_cmd.rb" />
         <option value="$PROJECT_DIR$/lib/salesforce/update_lead_cmd.rb" />
+        <option value="$PROJECT_DIR$/lib/create.rb" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
       </list>
     </option>
   </component>
@@ -509,14 +506,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="1002" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2281399" sideWeight="0.73642534" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25565612" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2281399" sideWeight="0.5248869" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46719456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39932126" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22511312" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -571,13 +568,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/salesforce/client_auth_header_handler.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/partner2.wsdl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="185" selection-end="200" vertical-scroll-proportion="-5.8">
@@ -620,16 +610,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+    <entry file="file://$PROJECT_DIR$/lib/salesforce/create_lead_cmd.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="15" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/salesforce/create_lead_cmd.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/leads/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="17" column="46" selection-start="505" selection-end="505" vertical-scroll-proportion="-12.041667">
           <folding />
         </state>
       </provider>
@@ -643,14 +633,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/salesforce/get_leads_cmd.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="42" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
+        <state line="23" column="40" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leads/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/leads_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="46" selection-start="505" selection-end="505" vertical-scroll-proportion="-12.041667">
+        <state line="39" column="25" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/salesforce/delete_lead_cmd.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="72" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/salesforce/update_lead_cmd.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -664,21 +668,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/create.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="11" selection-start="1122" selection-end="1751" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="115" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/leads_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="25" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/salesforce/update_lead_cmd.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="48" column="12" selection-start="2364" selection-end="2364" vertical-scroll-proportion="1.7149644">
           <folding />
         </state>
       </provider>

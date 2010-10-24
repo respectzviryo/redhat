@@ -16,7 +16,7 @@ module Salesforce
 
         driver.wiredump_dev = STDERR
         driver.headerhandler << Salesforce::ClientAuthHeaderHandler.new(access_token)
-        driver.endpoint_url = "https://eu0-api.salesforce.com/services/Soap/u/20.0/00D20000000OIfH"
+        driver.endpoint_url = ENDPOINT_URL
 
         s = SObject.new
         s.type = "Lead"
@@ -24,7 +24,6 @@ module Salesforce
         s.set_any(elements)
 
         b = {"sObjects" => [s]}
-
 
         res = driver.update(b)
         res

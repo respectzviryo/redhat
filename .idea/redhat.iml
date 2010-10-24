@@ -32,6 +32,7 @@
       <requirement>
         <dependency name="soap4r" version="0" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
+      <source from="config/environment.rb" />
       <source from="lib/SforceServiceClient.rb" />
       <source from="lib/create.rb" />
       <source from="script/create.rb" />

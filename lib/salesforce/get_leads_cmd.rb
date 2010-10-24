@@ -21,7 +21,7 @@ module Salesforce
       driver.wiredump_dev = STDERR
 
       driver.headerhandler << ClientAuthHeaderHandler.new(access_token)
-      driver.endpoint_url = "https://eu0-api.salesforce.com/services/Soap/u/20.0/00D20000000OIfH"
+      driver.endpoint_url = ENDPOINT_URL
       my_query = Query.new("select FirstName, LastName, Id, Company, Status from Lead")
       leads = driver.query(my_query).result
       return leads

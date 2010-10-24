@@ -35131,3 +35131,364 @@ Processing LeadsController#update (for 78.137.37.50 at 2010-10-24 20:05:19) [POS
 Rendering template within layouts/application
 Rendering salesforce/index
 Completed in 3047ms (View: 94, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/leads/update]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 78.137.37.50 at 2010-10-24 20:07:22) [GET]
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Redirected to http://salesforceplugin.dyndns.org/leads
+Completed in 94ms (DB: 16) | 302 Found [http://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.37.50 at 2010-10-24 20:07:23) [GET]
+Redirected to https://salesforceplugin.dyndns.org/leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/leads]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.37.50 at 2010-10-24 20:07:23) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/leads]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:07:24) [GET]
+Redirected to http://salesforceplugin.dyndns.org/leads/show_all_leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/leads/show_all_leads]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:07:24) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+
+NameError (uninitialized constant SOAP::Mapping::EncodedRegistry::RegistrySupport):
+  C:/Ruby187/lib/ruby/gems/1.8/gems/soap4r-1.5.8/lib/soap/mapping/encodedregistry.rb:51
+  C:/Ruby187/lib/ruby/1.8/soap/mapping.rb:11
+  C:/Ruby187/lib/ruby/1.8/soap/rpc/driver.rb:10
+  lib/salesforce/get_leads_cmd.rb:4
+  app/controllers/leads_controller.rb:13:in `show_all_leads'
+  C:/Ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.9/lib/ruby-debug-ide.rb:109:in `debug_load'
+  C:/Ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.9/lib/ruby-debug-ide.rb:109:in `debug_program'
+  C:/Ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.9/bin/rdebug-ide:87
+  C:\Ruby187\bin/rdebug-ide:19:in `load'
+  C:\Ruby187\bin/rdebug-ide:19
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (46.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:08:05) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+
+NameError (uninitialized constant SOAP::Mapping::EncodedRegistry::RegistrySupport):
+  C:/Ruby187/lib/ruby/gems/1.8/gems/soap4r-1.5.8/lib/soap/mapping/encodedregistry.rb:51
+  C:/Ruby187/lib/ruby/1.8/soap/mapping.rb:11
+  C:/Ruby187/lib/ruby/1.8/soap/rpc/driver.rb:10
+  lib/salesforce/get_leads_cmd.rb:4
+  app/controllers/leads_controller.rb:13:in `show_all_leads'
+  C:/Ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.9/lib/ruby-debug-ide.rb:109:in `debug_load'
+  C:/Ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.9/lib/ruby-debug-ide.rb:109:in `debug_program'
+  C:/Ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.9/bin/rdebug-ide:87
+  C:\Ruby187\bin/rdebug-ide:19:in `load'
+  C:\Ruby187\bin/rdebug-ide:19
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:08:29) [GET]
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering salesforce/index
+Completed in 1875ms (View: 234, DB: 16) | 200 OK [http://salesforceplugin.dyndns.org/leads/show_all_leads]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:09:16) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering salesforce/index
+Completed in 1750ms (View: 297, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/leads/show_all_leads]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#edit (for 78.137.37.50 at 2010-10-24 20:09:19) [GET]
+  Parameters: {"lead_id"=>"00Q2000000LQ6WjEAL"}
+Rendering template within layouts/application
+Rendering leads/edit
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/leads/edit?lead_id=00Q2000000LQ6WjEAL]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#update (for 78.137.37.50 at 2010-10-24 20:09:21) [POST]
+  Parameters: {"company"=>"svitla", "lastName"=>"Perepechka", "commit"=>"Update", "firstName"=>"Vail", "lead_id"=>"00Q2000000LQ6WjEAL", "status"=>"Open"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering salesforce/index
+Completed in 3000ms (View: 0, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/leads/update]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 78.137.37.50 at 2010-10-24 20:10:22) [GET]
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Redirected to http://salesforceplugin.dyndns.org/leads
+Completed in 94ms (DB: 16) | 302 Found [http://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.37.50 at 2010-10-24 20:10:22) [GET]
+Redirected to https://salesforceplugin.dyndns.org/leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/leads]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.37.50 at 2010-10-24 20:10:22) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Completed in 109ms (View: 78, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/leads]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:10:23) [GET]
+Redirected to http://salesforceplugin.dyndns.org/leads/show_all_leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/leads/show_all_leads]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:10:23) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering salesforce/index
+Completed in 1766ms (View: 16, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/leads/show_all_leads]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#edit (for 78.137.37.50 at 2010-10-24 20:10:26) [GET]
+  Parameters: {"lead_id"=>"00Q2000000LQ6WjEAL"}
+Rendering template within layouts/application
+Rendering leads/edit
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/leads/edit?lead_id=00Q2000000LQ6WjEAL]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#update (for 78.137.37.50 at 2010-10-24 20:10:28) [POST]
+  Parameters: {"company"=>"svitla", "lastName"=>"Perepechka", "commit"=>"Update", "firstName"=>"Vail2", "lead_id"=>"00Q2000000LQ6WjEAL", "status"=>"Open"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering salesforce/index
+Completed in 2891ms (View: 0, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/leads/update]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 78.137.37.50 at 2010-10-24 20:10:53) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Redirected to http://salesforceplugin.dyndns.org/leads
+Completed in 109ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.37.50 at 2010-10-24 20:10:54) [GET]
+Redirected to https://salesforceplugin.dyndns.org/leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/leads]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.37.50 at 2010-10-24 20:10:54) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Completed in 16ms (View: 16, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/leads]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:10:54) [GET]
+Redirected to http://salesforceplugin.dyndns.org/leads/show_all_leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/leads/show_all_leads]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:10:54) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering salesforce/index
+Completed in 5156ms (View: 31, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/leads/show_all_leads]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#edit (for 78.137.37.50 at 2010-10-24 20:11:01) [GET]
+  Parameters: {"lead_id"=>"00Q2000000LQ6WjEAL"}
+Rendering template within layouts/application
+Rendering leads/edit
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Completed in 78ms (View: 16, DB: 16) | 200 OK [http://salesforceplugin.dyndns.org/leads/edit?lead_id=00Q2000000LQ6WjEAL]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#update (for 78.137.37.50 at 2010-10-24 20:11:10) [POST]
+  Parameters: {"company"=>"svitla", "lastName"=>"Perepechka", "commit"=>"Update", "firstName"=>"Vail3", "lead_id"=>"00Q2000000LQ6WjEAL", "status"=>"Open"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering salesforce/index
+Completed in 2766ms (View: 16, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/leads/update]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 78.137.37.50 at 2010-10-24 20:11:32) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Redirected to http://salesforceplugin.dyndns.org/leads
+Completed in 31ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.37.50 at 2010-10-24 20:11:32) [GET]
+Redirected to https://salesforceplugin.dyndns.org/leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/leads]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.37.50 at 2010-10-24 20:11:32) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Completed in 31ms (View: 31, DB: 0) | 200 OK [https://salesforceplugin.dyndns.org/leads]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:11:33) [GET]
+Redirected to http://salesforceplugin.dyndns.org/leads/show_all_leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/leads/show_all_leads]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:11:33) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering salesforce/index
+Completed in 5188ms (View: 78, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/leads/show_all_leads]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#edit (for 78.137.37.50 at 2010-10-24 20:11:40) [GET]
+  Parameters: {"lead_id"=>"00Q2000000LQ6WjEAL"}
+Rendering template within layouts/application
+Rendering leads/edit
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://salesforceplugin.dyndns.org/leads/edit?lead_id=00Q2000000LQ6WjEAL]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#update (for 78.137.37.50 at 2010-10-24 20:11:42) [POST]
+  Parameters: {"company"=>"svitla", "lastName"=>"Perepechka", "commit"=>"Update", "firstName"=>"Vail4", "lead_id"=>"00Q2000000LQ6WjEAL", "status"=>"Open"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering salesforce/index
+Completed in 3031ms (View: 94, DB: 0) | 200 OK [http://salesforceplugin.dyndns.org/leads/update]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 78.137.37.50 at 2010-10-24 20:12:05) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Redirected to http://salesforceplugin.dyndns.org/leads
+Completed in 78ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.37.50 at 2010-10-24 20:12:05) [GET]
+Redirected to https://salesforceplugin.dyndns.org/leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://salesforceplugin.dyndns.org/leads]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#index (for 78.137.37.50 at 2010-10-24 20:12:05) [GET]
+Rendering template within layouts/application
+Rendering leads/index
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Completed in 31ms (View: 16, DB: 16) | 200 OK [https://salesforceplugin.dyndns.org/leads]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:12:06) [GET]
+Redirected to http://salesforceplugin.dyndns.org/leads/show_all_leads
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://salesforceplugin.dyndns.org/leads/show_all_leads]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:12:06) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+
+NameError (uninitialized constant SOAP::Mapping::EncodedRegistry::RegistrySupport):
+  C:/Ruby187/lib/ruby/gems/1.8/gems/soap4r-1.5.8/lib/soap/mapping/encodedregistry.rb:51
+  C:/Ruby187/lib/ruby/1.8/soap/mapping.rb:11
+  C:/Ruby187/lib/ruby/1.8/soap/rpc/driver.rb:10
+  lib/salesforce/get_leads_cmd.rb:4
+  app/controllers/leads_controller.rb:13:in `show_all_leads'
+  C:/Ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.9/lib/ruby-debug-ide.rb:109:in `debug_load'
+  C:/Ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.9/lib/ruby-debug-ide.rb:109:in `debug_program'
+  C:/Ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.9/bin/rdebug-ide:87
+  C:\Ruby187\bin/rdebug-ide:19:in `load'
+  C:\Ruby187\bin/rdebug-ide:19
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#show_all_leads (for 78.137.37.50 at 2010-10-24 20:13:11) [GET]
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering salesforce/index
+Completed in 5531ms (View: 31, DB: 16) | 200 OK [http://salesforceplugin.dyndns.org/leads/show_all_leads]
