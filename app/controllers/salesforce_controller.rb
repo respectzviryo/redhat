@@ -22,7 +22,6 @@ class SalesforceController < ApplicationController
     current_user.request_token = access_token
     current_user.save
 
-    @data = Salesforce::GetLeadsCmd.new(access_token).execute
-#     @data = Salesforce::GetLeadByRforce.new(access_token).execute
+    redirect_to :controller => :leads, :action => :index
   end
 end

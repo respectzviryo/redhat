@@ -1,30 +1,30 @@
-
 module Salesforce
 
   class CreateLeadCmd
 
-    attr_accessor :sobjects, :access_token
+    attr_accessor :elements, :access_token
 
-    def initialize
+    def initialize access_token, elements 
       @access_token = access_token
-      @sobjects = sobjects
-
+      @elements = elements
     end
 
     def execute
-      driver = SOAP::WSDLDriverFactory.new(SALESFORCE_WSDL).create_rpc_driver
-      driver.wiredump_dev = STDERR
-      driver.headerhandler << Salesforce::ClientAuthHeaderHandler.new(access_token)
-      driver.endpoint_url = "https://eu0-api.salesforce.com/services/Soap/u/20.0/00D20000000OIfH"
+      begin
+        driver = SOAP::WSDLDriverFactory.new(SALESFORCE_WSDL).create_rpc_driver
 
-      sobject = SObject.new
-      sobject.type = "Lead"
-      sobject.fieldsToNull = ["LastName", "Company", "Status"]
+        driver.wiredump_dev = STDERR
+        driver.headerhandler << Salesforce::ClientAuthHeaderHandler.new(access_token)
+        driver.endpoint_url = ENDPOINT_URL
 
-      opt = {"FirstName" => "Eugene", "LastName" => "Korpan", "Company" => "Svitla", "Status" => "Open"}
-
-      driver.create("eugenekorpan")
-
+        s = SObject.new
+        s.type = "Lead"
+        s.set_any(elements)
+        driver.create({"sObjects" => [s]})
+        true
+      rescue Exception => ex
+        false
+      end
 
     end
 

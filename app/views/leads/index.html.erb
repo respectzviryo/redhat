@@ -1,3 +1,34 @@
-<h1>
-  <%= link_to "view all your leads", "leads/show_all_leads" %>
-</h1>
+<h3>Leads</h3>
+
+<div style="font-style:italic; color:green;">
+  <%= flash[:info] %>
+</div>
+<br/>
+<%= link_to "Create new Lead", :action => :new %>
+<br/>
+<br/>
+
+<table cellspacing="10px">
+  <tr>
+    <td><b>#</b></td>
+    <td><b>First name</b></td>
+    <td><b>Last name</b></td>
+    <td><b>Company</b></td>
+    <td><b>Status</b></td>
+    <td colspan="2"><b>Actions</b></td>
+  </tr>
+
+  <% @data.records.each_with_index do |record, i| %>
+      <tr>
+        <td><%= i %></td>
+        <td><%= record.firstName %></td>
+        <td><%= record.lastName %></td>
+        <td><%= record.company %></td>
+        <td><%= record.status %></td>
+        <td><%= link_to "delete", {:controller => :leads, :action=> :destroy, :lead_id => record["Id"].first} %></td>
+        <td><%= link_to "update", {:controller => :leads, :action=> :edit, :lead_id => record["Id"].first} %></td>
+      </tr>
+  <% end %>
+
+</table>
+

@@ -1,6 +1,6 @@
 module Salesforce
 
-  class DescribeLeadCmd
+  class RetrieveLeadCmd
 
     attr_accessor :lead_id, :access_token
 

@@ -1,0 +1,22 @@
+<% form_tag "/leads/create" do %>  
+    <table>
+      <tr>
+        <td>First Name</td>
+        <td><%= text_field_tag "firstName" %></td>
+      </tr>
+      <tr>
+        <td>Last Name</td>
+        <td><%= text_field_tag "lastName" %></td>
+      </tr>
+      <tr>
+        <td>Copany</td>
+        <td><%= text_field_tag "company" %></td>
+      </tr>
+      <tr>
+        <td>Status</td>
+        <td><%= text_field_tag "status" %></td>
+      </tr>
+    </table>
+
+    <%= submit_tag "Create" %> &nbsp; <%= link_to "Cancel", {:controller => :leads, :action => :show_all_leads } %>
+<% end %>

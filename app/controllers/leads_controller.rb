@@ -1,47 +1,56 @@
 require 'oauth'
 class LeadsController < ApplicationController
+  before_filter :set_access_token
 
   include SslRequirement
 
   ssl_required :index
 
-  def index
+  def show_all_leads
   end
 
-  def show_all_leads
-    if current_user.request_token
-      @data = Salesforce::GetLeadsCmd.new(current_user.request_token).execute
-      render :template => "salesforce/index"
+  def index
+    if @access_token
+      @data = Salesforce::GetLeadsCmd.new(@access_token).execute
     else
 #      redirect_user_for_verification # used in OAuth 1.0
       redirect_to salesforce_url
     end
+  end
 
+  def new
+  end
+
+  def create
+    elements = {}
+    ["firstName", "lastName", "company"].each { |e| elements[e] = params[e] }
+    create_cmd = Salesforce::CreateLeadCmd.new(@access_token, elements)
+    created = create_cmd.execute
+    flash[:info] = created ? "Lead was successfully created" : "Could not create lead due to some error"
+    redirect_to :action => :index
   end
 
   def destroy
-    access_token = current_user.request_token
-    delete_cmd = Salesforce::DeleteLeadCmd.new(params[:lead_id], access_token)
+    delete_cmd = Salesforce::DeleteLeadCmd.new(params[:lead_id], @access_token)
     deleted = delete_cmd.execute
     flash[:info] = deleted ? "Lead was successfully deleted" : "Could not delete lead due to some error"
-    redirect_to :action => :show_all_leads
+    redirect_to :action => :index
   end
 
   def edit
     @lead_id = params[:lead_id]
-    @lead = Salesforce::DescribeLeadCmd.new(@lead_id, current_user.request_token).execute
+    @lead = Salesforce::RetrieveLeadCmd.new(@lead_id, @access_token).execute
   end
 
   def update
     elements = {}
-    ["firstName", "lastName", "company", "status"].each{|e| elements[e] = params[e]}
-    access_token = current_user.request_token
-    update_cmd = Salesforce::UpdateLeadCmd.new(access_token, params[:lead_id], elements)
+    ["firstName", "lastName", "company", "status"].each { |e| elements[e] = params[e] }
+    update_cmd = Salesforce::UpdateLeadCmd.new(@access_token, params[:lead_id], elements)
     updated = update_cmd.execute
     flash[:info] = updated ? "Lead was successfully updated" : "Could not update lead due to some error"
-    redirect_to :action => :show_all_leads
+    redirect_to :action => :index
   end
-  
+
 
   private
 
@@ -77,10 +86,14 @@ class LeadsController < ApplicationController
     consumer = OAuth::Consumer.new consumer_key, consumer_secret, oauth_options
     consumer.http.set_debug_output STDERR
     request = consumer.get_request_token
-    session[:request] = request 
+    session[:request] = request
     # set request to user to be able to use it in other controllers
     authorize_url = request.authorize_url :oauth_consumer_key => consumer_key
-    redirect_to authorize_url 
+    redirect_to authorize_url
+  end
+
+  def set_access_token
+    @access_token = current_user.request_token
   end
 
 end
