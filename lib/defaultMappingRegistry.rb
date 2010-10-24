@@ -1,6 +1,7 @@
-require 'salesforce.rb'
+require 'salesforce'
 require 'soap/mapping'
 
+include Salesforce
 module DefaultMappingRegistry
   EncodedRegistry = ::SOAP::Mapping::EncodedRegistry.new
   LiteralRegistry = ::SOAP::Mapping::LiteralRegistry.new

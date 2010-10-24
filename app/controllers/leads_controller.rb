@@ -28,6 +28,21 @@ class LeadsController < ApplicationController
     render :template => "salesforce/index"
   end
 
+  def edit
+    @lead_id = params[:lead_id]
+  end
+
+  def update
+    elements = {}
+    ["firstName", "lastName", "company", "status"].each{|e| elements[e] = params[e]}
+    access_token = current_user.request_token
+
+    Salesforce::UpdateLeadCmd.new(access_token, params[:lead_id], elements).execute
+    @data = Salesforce::GetLeadsCmd.new(access_token).execute
+    render :template => "salesforce/index"
+  end
+
+
   private
 
   def salesforce_url

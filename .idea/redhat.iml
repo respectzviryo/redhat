@@ -30,6 +30,15 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="soap4r" version="0" bound="GREATER_OR_EQUAL" git="false" />
+      </requirement>
+      <source from="lib/SforceServiceClient.rb" />
+      <source from="lib/create.rb" />
+      <source from="lib/salesforce/update_lead_cmd.rb" />
+      <source from="script/create.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="test-unit" version="0" bound="GREATER_OR_EQUAL" lib="test/unit" git="false" />
       </requirement>
       <source from="config/environment.rb" />
@@ -52,10 +61,8 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v2.3.5, C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] test-unit (v2.1.1, C:/Ruby187/lib/ruby/gems/1.8/gems/test-unit-2.1.1)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] oauth (v0.4.3, C:/Ruby187/lib/ruby/gems/1.8/gems/oauth-0.4.3)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rack (v1.0.1, C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] builder (v2.1.2, C:/Ruby187/lib/ruby/gems/1.8/gems/builder-2.1.2)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] facets (v2.9.0, C:/Ruby187/lib/ruby/gems/1.8/gems/facets-2.9.0)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rforce (v0.4.1, C:/Ruby187/lib/ruby/gems/1.8/gems/rforce-0.4.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] soap4r (v1.5.8, C:/Ruby187/lib/ruby/gems/1.8/gems/soap4r-1.5.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] httpclient (v2.1.5.2, C:/Ruby187/lib/ruby/gems/1.8/gems/httpclient-2.1.5.2)" level="application" />
   </component>
 </module>
 

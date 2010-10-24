@@ -1,0 +1,23 @@
+<% form_tag "/leads/update" do %>
+    <%= hidden_field_tag "lead_id", @lead_id %>
+    <table>
+      <tr>
+        <td>First Name</td>
+        <td><%= text_field_tag "firstName", "Vail" %></td>
+      </tr>
+      <tr>
+        <td>Last Name</td>
+        <td><%= text_field_tag "lastName", "Perepechka" %></td>
+      </tr>
+      <tr>
+        <td>Copany</td>
+        <td><%= text_field_tag "company", "svitla" %></td>
+      </tr>
+      <tr>
+        <td>Status</td>
+        <td><%= text_field_tag "status", "Open" %></td>
+      </tr>
+    </table>
+
+    <%= submit_tag "Update" %> &nbsp; <%= link_to "Cancel", {:controller => :leads, :action => :show_all_leads } %>
+<% end %>

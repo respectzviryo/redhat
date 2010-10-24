@@ -1,3 +1,4 @@
+require 'soap/header/simplehandler'
 module Salesforce
   class ClientAuthHeaderHandler < SOAP::Header::SimpleHandler
     MyHeaderName = XSD::QName.new("urn:partner.soap.sforce.com", "SessionHeader")
