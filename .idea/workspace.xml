@@ -10,20 +10,16 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="1baf82a3-0a46-4890-8c0d-9e925954ed80" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/defaultMappingRegistry.rb" afterPath="$PROJECT_DIR$/lib/defaultMappingRegistry.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/salesforce/client_auth_header_handler.rb" afterPath="$PROJECT_DIR$/lib/salesforce/client_auth_header_handler.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/SforceServiceClient.rb" afterPath="$PROJECT_DIR$/lib/SforceServiceClient.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/salesforce/update_lead_cmd.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/salesforce/index.html.erb" afterPath="$PROJECT_DIR$/app/views/salesforce/index.html.erb" />
-      <change type="DELETED" beforePath="D:\projects\redhat\lib\client_auth_header_handler.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/salesforce/update_lead_cmd.rb" afterPath="$PROJECT_DIR$/lib/salesforce/update_lead_cmd.rb" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/leads/edit.html.erb" />
+      <change type="DELETED" beforePath="D:\projects\redhat\lib\client_auth_header_handler.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/salesforce/delete_lead_cmd.rb" afterPath="$PROJECT_DIR$/lib/salesforce/delete_lead_cmd.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/salesforce/get_leads_cmd.rb" afterPath="$PROJECT_DIR$/lib/salesforce/get_leads_cmd.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/SforceServiceClient.rb" afterPath="$PROJECT_DIR$/lib/SforceServiceClient.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/leads_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/leads_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/salesforce/create_lead_cmd.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/redhat.iml" afterPath="$PROJECT_DIR$/.idea/redhat.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
     </list>
     <ignored path="redhat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,7 +55,7 @@
       <file leaf-file-name="update_lead_cmd.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/salesforce/update_lead_cmd.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="75" selection-start="825" selection-end="825" vertical-scroll-proportion="0.6872771">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -682,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/salesforce/update_lead_cmd.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="75" selection-start="825" selection-end="825" vertical-scroll-proportion="0.6872771">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

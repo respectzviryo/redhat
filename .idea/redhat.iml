@@ -34,7 +34,6 @@
       </requirement>
       <source from="lib/SforceServiceClient.rb" />
       <source from="lib/create.rb" />
-      <source from="lib/salesforce/update_lead_cmd.rb" />
       <source from="script/create.rb" />
     </requirement>
     <requirement>
