@@ -3,19 +3,19 @@
     <table>
       <tr>
         <td>First Name</td>
-        <td><%= text_field_tag "firstName", "Vail" %></td>
+        <td><%= text_field_tag "firstName", @lead.firstName %></td>
       </tr>
       <tr>
         <td>Last Name</td>
-        <td><%= text_field_tag "lastName", "Perepechka" %></td>
+        <td><%= text_field_tag "lastName", @lead.lastName %></td>
       </tr>
       <tr>
         <td>Copany</td>
-        <td><%= text_field_tag "company", "svitla" %></td>
+        <td><%= text_field_tag "company", @lead.company %></td>
       </tr>
       <tr>
         <td>Status</td>
-        <td><%= text_field_tag "status", "Open" %></td>
+        <td><%= text_field_tag "status", @lead.status %></td>
       </tr>
     </table>
 

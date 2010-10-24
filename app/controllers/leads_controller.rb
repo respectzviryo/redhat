@@ -24,24 +24,24 @@ class LeadsController < ApplicationController
     delete_cmd = Salesforce::DeleteLeadCmd.new(params[:lead_id], access_token)
     deleted = delete_cmd.execute
     flash[:info] = deleted ? "Lead was successfully deleted" : "Could not delete lead due to some error"
-    @data = Salesforce::GetLeadsCmd.new(access_token).execute
-    render :template => "salesforce/index"
+    redirect_to :action => :show_all_leads
   end
 
   def edit
     @lead_id = params[:lead_id]
+    @lead = Salesforce::DescribeLeadCmd.new(@lead_id, current_user.request_token).execute
   end
 
   def update
     elements = {}
     ["firstName", "lastName", "company", "status"].each{|e| elements[e] = params[e]}
     access_token = current_user.request_token
-
-    Salesforce::UpdateLeadCmd.new(access_token, params[:lead_id], elements).execute
-    @data = Salesforce::GetLeadsCmd.new(access_token).execute
-    render :template => "salesforce/index"
+    update_cmd = Salesforce::UpdateLeadCmd.new(access_token, params[:lead_id], elements)
+    updated = update_cmd.execute
+    flash[:info] = updated ? "Lead was successfully updated" : "Could not update lead due to some error"
+    redirect_to :action => :show_all_leads
   end
-
+  
 
   private
 

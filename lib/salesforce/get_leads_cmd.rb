@@ -1,10 +1,3 @@
-require 'json'
-require 'net/http'
-require 'net/https'
-require 'soap/rpc/driver'
-require 'soap/wsdlDriver'
-require 'soap/header/simplehandler'
-
 module Salesforce
   class GetLeadsCmd
 

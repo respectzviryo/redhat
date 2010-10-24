@@ -48,3 +48,9 @@ SALESFORCE_WSDL = "http://salesforceplugin.dyndns.org/wsdl/partner.wsdl"
 ENDPOINT_URL = "https://eu0-api.salesforce.com/services/Soap/u/20.0/00D20000000OIfH"
 
 gem "soap4r"
+require 'json'
+require 'net/http'
+require 'net/https'
+require 'soap/rpc/driver'
+require 'soap/wsdlDriver'
+require 'soap/header/simplehandler'
