@@ -20654,3 +20654,560 @@ Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 15:51:39) [GET
 Rendering template within layouts/salesforces
 Rendering salesforces/new
 Completed in 94ms (View: 15, DB: 16) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 16:56:56) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 250ms (View: 156, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:09:58) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 16, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:14:10) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:15:19) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 93ms (View: 15, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:16:17) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 109ms (View: 31, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:17:56) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:17:58) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:18:36) [GET]
+  [4;35;1mSalesforce Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 79ms (View: 0, DB: 16) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:20:39) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 15, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:23:48) [GET]
+  [4;35;1mSalesforce Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 16, DB: 16) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:24:08) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 93ms (View: 15, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:26:05) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 78ms (View: 0, DB: 16) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:26:23) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:26:36) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 93ms (View: 15, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:29:39) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 109ms (View: 31, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:31:22) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 31, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:32:16) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 110ms (View: 32, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:46:25) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 47, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:50:00) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 32, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 17:54:38) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 32, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 18:04:00) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 18:04:30) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 93ms (View: 15, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 18:06:18) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 18:07:28) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 10:30:59) [GET]
+  [4;35;1mSalesforce Columns (31.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 2140ms (View: 2015, DB: 31) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 10:31:17) [GET]
+  [4;35;1mSalesforce Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 93ms (View: 15, DB: 15) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:00:13) [GET]
+  [4;35;1mSalesforce Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+
+ActionView::TemplateError (undefined local variable or method `salesforces_path' for #<ActionView::Base:0x48ddcc8>) on line #195 of app/views/salesforces/new.html.erb:
+192: 
+193: </div><br/><br/><br/>
+194: 
+195: <%= link_to 'Back', salesforces_path %>
+
+    app/views/salesforces/new.html.erb:195
+    app/controllers/salesforces_controller.rb:29:in `new'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:01:07) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 157ms (View: 47, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:01:49) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 31, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:09:28) [GET]
+  [4;35;1mSalesforce Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 16, DB: 16) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:10:52) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 31, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:13:21) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 47, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:14:17) [GET]
+  [4;35;1mSalesforce Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 16, DB: 16) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:23:16) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 46, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:24:29) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 1907ms (View: 1813, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:25:24) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:25:30) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:44:05) [GET]
+  [4;35;1mSalesforce Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 157ms (View: 47, DB: 16) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:44:10) [GET]
+  [4;35;1mSalesforce Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 94ms (View: 16, DB: 16) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:45:03) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 47, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:47:13) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 109ms (View: 16, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:54:43) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 31, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:55:04) [GET]
+  [4;35;1mSalesforce Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 93ms (View: 15, DB: 15) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:57:34) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 47, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 11:57:38) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 110ms (View: 16, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 15:41:48) [GET]
+  [4;35;1mSalesforce Columns (47.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 156ms (View: 31, DB: 47) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 16:46:22) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 140ms (View: 47, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-21 17:08:41) [GET]
+  [4;35;1mSalesforce Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 125ms (View: 32, DB: 0) | 200 OK [http://localhost/salesforces/new]
+/!\ FAILSAFE /!\  Mon Oct 25 10:57:56 +0400 2010
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby187/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (78.1ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (125.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101011072527)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (62.5ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(40), `name` varchar(100) DEFAULT '', `email` varchar(100), `crypted_password` varchar(40), `salt` varchar(40), `created_at` datetime, `updated_at` datetime, `remember_token` varchar(40), `remember_token_expires_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (140.6ms)[0m   [0;1mCREATE UNIQUE INDEX `index_users_on_login` ON `users` (`login`)[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101011072527')[0m
+Migrating to AddColumnToUsers (20101011073328)
+  [4;36;1mSQL (171.9ms)[0m   [0;1mALTER TABLE `users` ADD `lastname` varchar(255)[0m
+  [4;35;1mSQL (109.4ms)[0m   [0mALTER TABLE `users` ADD `firstname` varchar(255)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101011073328')[0m
+Migrating to CreateTasks (20101011124917)
+  [4;35;1mSQL (46.9ms)[0m   [0mCREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `title` varchar(255), `description` varchar(255), `status` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101011124917')[0m
+Migrating to AddActivationColumnsToUser (20101012072237)
+  [4;35;1mSQL (109.4ms)[0m   [0mALTER TABLE `users` ADD `activation_code` varchar(40)[0m
+  [4;36;1mSQL (109.4ms)[0m   [0;1mALTER TABLE `users` ADD `activated_at` datetime[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101012072237')[0m
+Migrating to CreateCategories (20101014091812)
+  [4;36;1mSQL (31.2ms)[0m   [0;1mCREATE TABLE `categories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `category_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014091812')[0m
+Migrating to AddUserIdToCategories (20101014111653)
+  [4;36;1mSQL (125.0ms)[0m   [0;1mALTER TABLE `categories` ADD `user_id` int(11)[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014111653')[0m
+Migrating to AddCategoryIdToTasks (20101014130303)
+  [4;36;1mSQL (125.0ms)[0m   [0;1mALTER TABLE `tasks` ADD `category_id` int(11)[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014130303')[0m
+Migrating to CreateSalesforces (20101019065042)
+  [4;36;1mSQL (46.9ms)[0m   [0;1mCREATE TABLE `salesforces` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (31.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101019065042')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `categories`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `categories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `salesforces`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `salesforces`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `salesforces`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-25 11:02:36) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 1406ms (View: 1391, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-25 11:02:58) [GET]
+
+ActionController::RoutingError (No route matches "/salesforce/new" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-25 11:03:05) [GET]
+
+ActionController::RoutingError (No route matches "/salesforce/index" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-25 11:04:02) [GET]
+  [4;36;1mSalesforce Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `salesforces`[0m
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/salesforces/new]

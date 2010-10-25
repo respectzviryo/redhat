@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(:version => 20101019065042) do
   end
 
   create_table "tasks", :force => true do |t|
-    t.string   "user_id"
+    t.integer  "user_id"
     t.string   "title"
     t.string   "description"
     t.string   "status"

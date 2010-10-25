@@ -15,33 +15,41 @@ root {
     display: block;
 }
 
+div.title{
+    background-color:#fae9cf;
+    font-weight:bold;
+}
+
 div.left {
-    
+
 }
 
 div.lead_information {
     background-color:#e2e4e4;
+    text-align: center;
 }
 
-div.title {
-    background-color:#fae9cf;
-}
-
-div.right_info div {
-    float: right;
-    width: 100px;
-}
-
-div.left_info div {
+div.info{
     float: left;
-    width: 100px;
 }
 
-div.column {
-    width: 80px;
+div.lead_information{
+
 }
 
 div.row {
-    width: 80px;
+    float: left;
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
+div.row_name {
+    text-align: right;
+}
+
+div.furniture {
+    text-align: left;
+}
