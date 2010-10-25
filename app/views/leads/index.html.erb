@@ -8,27 +8,35 @@
 <br/>
 <br/>
 
-<table cellspacing="10px">
-  <tr>
-    <td><b>#</b></td>
-    <td><b>First name</b></td>
-    <td><b>Last name</b></td>
-    <td><b>Company</b></td>
-    <td><b>Status</b></td>
-    <td colspan="2"><b>Actions</b></td>
-  </tr>
+<div class="tasks" style="font-weight: bold;">
+  <div class="check">#</div>
+  <div class="info">First name</div>
+  <div class="info">Last name</div>
+  <div class="status">Company</div>
+  <div class="info">Status</div>
+  <div class="actions_title">Actions</div>
+  <div style="clear:both;"></div>
+</div>
 
+<div>
   <% @data.records.each_with_index do |record, i| %>
-      <tr>
-        <td><%= i %></td>
-        <td><%= record.firstName %></td>
-        <td><%= record.lastName %></td>
-        <td><%= record.company %></td>
-        <td><%= record.status %></td>
-        <td><%= link_to "delete", {:controller => :leads, :action=> :destroy, :lead_id => record["Id"].first} %></td>
-        <td><%= link_to "update", {:controller => :leads, :action=> :edit, :lead_id => record["Id"].first} %></td>
-      </tr>
+      <div class="tasks">
+        <div class="task_container">
+          <div class="check">
+            <%= i + 1 %>
+          </div>
+          <div class="info"><%= record.firstName %></div>
+          <div class="info"><%= record.lastName %></div>
+          <div class="info"><%= record.company %></div>
+          <div class="status"> <%= record.status %></div>
+
+          <div class="actions hidden">
+            <div><%= link_to "delete", {:controller => :leads, :action=> :destroy, :lead_id => record["Id"].first} %></div>
+            <div><%= link_to "update", {:controller => :leads, :action=> :edit, :lead_id => record["Id"].first} %></div>
+          </div>
+          <div style="clear:both;"></div>
+        </div>
+      </div>
+
   <% end %>
-
-</table>
-
+</div>
