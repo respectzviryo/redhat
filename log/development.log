@@ -37927,3 +37927,35 @@ Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-25 12:45:12) [GET
 Rendering template within layouts/salesforces
 Rendering salesforces/new
 Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/salesforces/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2010-10-25 13:00:09) [GET]
+
+MissingSourceFile (no such file to load -- oauth):
+  app/controllers/leads_controller.rb:1
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-25 13:01:47) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 281ms (View: 281, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#new (for 127.0.0.1 at 2010-10-25 13:02:00) [GET]
+Rendering template within layouts/application
+Rendering leads/new
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/leads/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeadsController#new (for 127.0.0.1 at 2010-10-25 13:03:01) [GET]
+Rendering template within layouts/application
+Rendering leads/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/leads/new]
