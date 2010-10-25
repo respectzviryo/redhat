@@ -18,6 +18,7 @@ root {
 div.title{
     background-color:#fae9cf;
     font-weight:bold;
+    float: left;
 }
 
 div.lead_information {

@@ -8,18 +8,17 @@
 <br/>
 <br/>
 
-<div class="tasks" style="font-weight: bold;">
+<div class="title">
   <div class="check">#</div>
   <div class="info">First name</div>
   <div class="info">Last name</div>
-  <div class="status">Company</div>
-  <div class="info">Status</div>
-  <div class="actions_title">Actions</div>
-  <div style="clear:both;"></div>
+  <div class="info">Company</div>
+  <div class="status">Status</div>
+  <div class="actions_title" style="text-align:center">Actions</div>
 </div>
-
+<div style="clear:both"></div>
 <div>
-  <% @data.records.each_with_index do |record, i| %>
+  <% @data.each_with_index do |record, i| %>
       <div class="tasks">
         <div class="task_container">
           <div class="check">
@@ -30,13 +29,12 @@
           <div class="info"><%= record.company %></div>
           <div class="status"> <%= record.status %></div>
 
-          <div class="actions hidden">
-            <div><%= link_to "delete", {:controller => :leads, :action=> :destroy, :lead_id => record["Id"].first} %></div>
-            <div><%= link_to "update", {:controller => :leads, :action=> :edit, :lead_id => record["Id"].first} %></div>
+          <div class="actions hidden" style="text-align: center;">
+            <div><%= link_to "delete", {:controller => :leads, :action=> :destroy} %></div>
+            <div><%= link_to "update", {:controller => :leads, :action=> :edit} %></div>
           </div>
-          <div style="clear:both;"></div>
         </div>
       </div>
-
+      <div style="clear:both"></div>
   <% end %>
 </div>
