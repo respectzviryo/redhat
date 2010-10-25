@@ -1,0 +1,18 @@
+<h1>Listing lids</h1>
+
+<table>
+  <tr>
+  </tr>
+
+<% @lids.each do |lid| %>
+  <tr>
+    <td><%= link_to 'Show', lid %></td>
+    <td><%= link_to 'Edit', edit_lid_path(lid) %></td>
+    <td><%= link_to 'Destroy', lid, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New lid', 'lids/new' %>

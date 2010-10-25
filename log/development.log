@@ -20654,3 +20654,2381 @@ Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-20 15:51:39) [GET
 Rendering template within layouts/salesforces
 Rendering salesforces/new
 Completed in 94ms (View: 15, DB: 16) | 200 OK [http://localhost/salesforces/new]
+/!\ FAILSAFE /!\  Wed Oct 20 16:49:25 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:49:36 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:49:54 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:50:44 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:51:15 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:52:04 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:52:11 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:52:14 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:52:34 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:53:21 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:53:48 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:53:56 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:54:05 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Oct 20 16:54:11 +0300 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    c:/ruby/lib/ruby/1.8/mysql.rb:453:in `read'
+    c:/ruby/lib/ruby/1.8/mysql.rb:130:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-20 17:07:46) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 1703ms (View: 1703, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#index (for 127.0.0.1 at 2010-10-20 17:07:55) [GET]
+  [4;36;1mLid Load (0.0ms)[0m   [0;1mSELECT * FROM `lids` [0m
+Rendering template within layouts/lids
+Rendering lids/index
+
+ActionView::TemplateError (undefined local variable or method `new_lid_path' for #<ActionView::Base:0x46ce7ac>) on line #18 of vendor/plugins/salesforcelids/app/views/lids/index.html.erb:
+15: 
+16: <br />
+17: 
+18: <%= link_to 'New lid', new_lid_path %>
+
+    vendor/plugins/salesforcelids/app/views/lids/index.html.erb:18
+    vendor/plugins/salesforcelids/app/controllers/lids_controller.rb:7:in `index'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#index (for 127.0.0.1 at 2010-10-20 17:13:12) [GET]
+  [4;36;1mLid Load (0.0ms)[0m   [0;1mSELECT * FROM `lids` [0m
+Rendering template within layouts/lids
+Rendering lids/index
+Completed in 172ms (View: 15, DB: 0) | 200 OK [http://localhost/lids]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 17:13:14) [GET]
+  [4;36;1mLid Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `lids`[0m
+Rendering template within layouts/lids
+Rendering lids/new
+
+ActionView::TemplateError (undefined local variable or method `lids_path' for #<ActionView::Base:0x48aa788>) on line #179 of vendor/plugins/salesforcelids/app/views/lids/new.html.erb:
+176: 
+177: </div><br/><br/><br/>
+178: 
+179: <%= link_to 'Back', lids_path %>
+
+    vendor/plugins/salesforcelids/app/views/lids/new.html.erb:179
+    vendor/plugins/salesforcelids/app/controllers/lids_controller.rb:29:in `new'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-20 17:14:36) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo=", "login"=>"zim", "password"=>"1"}
+  [4;36;1mUser Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`login` = 'zim') LIMIT 1[0m
+Failed login for 'zim' from 127.0.0.1 at Wed Oct 20 14:14:36 UTC 2010
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 203ms (View: 15, DB: 16) | 200 OK [http://localhost/session]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-20 17:14:42) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo=", "login"=>"zim", "password"=>"111111"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`login` = 'zim') LIMIT 1[0m
+Failed login for 'zim' from 127.0.0.1 at Wed Oct 20 14:14:42 UTC 2010
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 171ms (View: 15, DB: 0) | 200 OK [http://localhost/session]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-20 17:15:02) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 172ms (View: 63, DB: 0) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-10-20 17:15:29) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"1", "firstname"=>"zimin", "lastname"=>"anton", "password"=>"1", "login"=>"zim", "email"=>"liberius@bk.ru"}, "commit"=>"Sign up", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo="}
+  [4;36;1mUser Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (31.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'zim') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'liberius@bk.ru') LIMIT 1[0m
+  [4;36;1mUser Create (109.0ms)[0m   [0;1mINSERT INTO `users` (`name`, `salt`, `updated_at`, `activated_at`, `crypted_password`, `remember_token_expires_at`, `activation_code`, `lastname`, `firstname`, `remember_token`, `login`, `email`, `created_at`) VALUES('', 'b9b96a65c5f90fad215a5b22907c2b3b76ee9d88', '2010-10-20 14:15:30', NULL, '7307d80e7fb5341d6e95c38922232c517a1a0ab7', NULL, '85073476de67c4b9d37f1ce4b16cb49443367c4a', 'anton', 'zimin', NULL, 'zim', 'liberius@bk.ru', '2010-10-20 14:15:30')[0m
+Sent mail to liberius@bk.ru
+
+Date: Wed, 20 Oct 2010 17:15:30 +0300
+From: ADMINEMAIL
+To: liberius@bk.ru
+Subject: [YOURSITE] Please activate your new account
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Your account has been created.
+
+  Username: zim
+  Password: 1
+
+Visit this url to activate your account:
+
+  http://redhat.heroku.com/activate/85073476de67c4b9d37f1ce4b16cb49443367c4a
+  [4;35;1mSQL (63.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'zim' AND `users`.id <> 3) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'liberius@bk.ru' AND `users`.id <> 3) LIMIT 1[0m
+Completed in 7140ms (View: 171, DB: 219) | 200 OK [http://localhost/users/create]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-20 17:17:07) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-20 17:17:12) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo=", "login"=>"zim", "password"=>"1"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (62.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`login` = 'zim') LIMIT 1[0m
+Failed login for 'zim' from 127.0.0.1 at Wed Oct 20 14:17:12 UTC 2010
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 265ms (View: 15, DB: 62) | 200 OK [http://localhost/session]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-20 17:17:20) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo=", "login"=>"zim", "password"=>"1"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`login` = 'zim') LIMIT 1[0m
+Failed login for 'zim' from 127.0.0.1 at Wed Oct 20 14:17:20 UTC 2010
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 219ms (View: 0, DB: 16) | 200 OK [http://localhost/session]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-20 17:18:39) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-20 17:18:45) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo=", "login"=>"zim", "password"=>"1"}
+  [4;35;1mUser Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`login` = 'zim') LIMIT 1[0m
+Failed login for 'zim' from 127.0.0.1 at Wed Oct 20 14:18:45 UTC 2010
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 187ms (View: 16, DB: 15) | 200 OK [http://localhost/session]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-20 17:30:04) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo=", "login"=>"eugene", "password"=>"thunder"}
+  [4;36;1mUser Columns (63.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`login` = 'eugene') LIMIT 1[0m
+Failed login for 'eugene' from 127.0.0.1 at Wed Oct 20 14:30:04 UTC 2010
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 296ms (View: 15, DB: 63) | 200 OK [http://localhost/session]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-20 17:30:10) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo=", "login"=>"eugene", "password"=>"1"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`login` = 'eugene') LIMIT 1[0m
+Failed login for 'eugene' from 127.0.0.1 at Wed Oct 20 14:30:10 UTC 2010
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/session]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-20 17:34:12) [GET]
+  [4;36;1mUser Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 141ms (View: 16, DB: 15) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (328.0ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (203.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101011072527)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (93.0ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(40), `name` varchar(100) DEFAULT '', `email` varchar(100), `crypted_password` varchar(40), `salt` varchar(40), `created_at` datetime, `updated_at` datetime, `remember_token` varchar(40), `remember_token_expires_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (203.0ms)[0m   [0;1mCREATE UNIQUE INDEX `index_users_on_login` ON `users` (`login`)[0m
+  [4;35;1mSQL (32.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101011072527')[0m
+Migrating to AddColumnToUsers (20101011073328)
+  [4;36;1mSQL (187.0ms)[0m   [0;1mALTER TABLE `users` ADD `lastname` varchar(255)[0m
+  [4;35;1mSQL (203.0ms)[0m   [0mALTER TABLE `users` ADD `firstname` varchar(255)[0m
+  [4;36;1mSQL (32.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101011073328')[0m
+Migrating to CreateTasks (20101011124917)
+  [4;35;1mSQL (109.0ms)[0m   [0mCREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `title` varchar(255), `description` varchar(255), `status` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101011124917')[0m
+Migrating to AddActivationColumnsToUser (20101012072237)
+  [4;35;1mSQL (312.0ms)[0m   [0mALTER TABLE `users` ADD `activation_code` varchar(40)[0m
+  [4;36;1mSQL (203.0ms)[0m   [0;1mALTER TABLE `users` ADD `activated_at` datetime[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101012072237')[0m
+Migrating to CreateCategories (20101014091812)
+  [4;36;1mSQL (109.0ms)[0m   [0;1mCREATE TABLE `categories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `category_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014091812')[0m
+Migrating to AddUserIdToCategories (20101014111653)
+  [4;36;1mSQL (250.0ms)[0m   [0;1mALTER TABLE `categories` ADD `user_id` int(11)[0m
+  [4;35;1mSQL (47.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014111653')[0m
+Migrating to AddCategoryIdToTasks (20101014130303)
+  [4;36;1mSQL (375.0ms)[0m   [0;1mALTER TABLE `tasks` ADD `category_id` int(11)[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014130303')[0m
+Migrating to CreateLids (20101019073615)
+  [4;36;1mSQL (125.0ms)[0m   [0;1mCREATE TABLE `lids` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` varchar(255), `first_name` varchar(255), `last_name` varchar(255), `company` varchar(255), `title` varchar(255), `lead_source` varchar(255), `campaign` varchar(255), `industry` varchar(255), `annual_revenue` varchar(255), `street` varchar(255), `city` varchar(255), `state_province` varchar(255), `zip_postal_code` varchar(255), `country` varchar(255), `product_interest` varchar(255), `sic_code` varchar(255), `number_of_locations` varchar(255), `phone` varchar(255), `mobile` varchar(255), `fax` varchar(255), `email` varchar(255), `website` varchar(255), `lead_status` varchar(255), `rating` varchar(255), `no_of_employees` varchar(255), `current_generator` varchar(255), `primary` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (31.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101019073615')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mdescribe `categories`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `categories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `lids`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `lids`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `lids`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (531.0ms)[0m   [0;1mdescribe `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-10-20 17:46:18) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"1", "firstname"=>"zimin", "lastname"=>"anton", "password"=>"1", "login"=>"zim", "email"=>"liberius@bk.ru"}, "commit"=>"Sign up", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo="}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'zim') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'liberius@bk.ru') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO `users` (`name`, `salt`, `updated_at`, `activated_at`, `crypted_password`, `remember_token_expires_at`, `activation_code`, `lastname`, `firstname`, `remember_token`, `login`, `email`, `created_at`) VALUES('', 'b27d52181a8662578c161e56d0e7e0fca57bc75f', '2010-10-20 14:46:18', NULL, '247bf6fc7f484373ee5905e8e293b2b7e4f6fce4', NULL, '4f762948e46b72000a23caf47d5bc101da8fc28f', 'anton', 'zimin', NULL, 'zim', 'liberius@bk.ru', '2010-10-20 14:46:18')[0m
+Sent mail to liberius@bk.ru
+
+Date: Wed, 20 Oct 2010 17:46:18 +0300
+From: ADMINEMAIL
+To: liberius@bk.ru
+Subject: [YOURSITE] Please activate your new account
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Your account has been created.
+
+  Username: zim
+  Password: 1
+
+Visit this url to activate your account:
+
+  localhost:3000
+  [4;36;1mSQL (93.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'zim' AND `users`.id <> 1) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'liberius@bk.ru' AND `users`.id <> 1) LIMIT 1[0m
+Completed in 5516ms (View: 219, DB: 93) | 200 OK [http://localhost/users/create]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (203.0ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (297.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101011072527)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (156.0ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(40), `name` varchar(100) DEFAULT '', `email` varchar(100), `crypted_password` varchar(40), `salt` varchar(40), `created_at` datetime, `updated_at` datetime, `remember_token` varchar(40), `remember_token_expires_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (172.0ms)[0m   [0;1mCREATE UNIQUE INDEX `index_users_on_login` ON `users` (`login`)[0m
+  [4;35;1mSQL (32.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101011072527')[0m
+Migrating to AddColumnToUsers (20101011073328)
+  [4;36;1mSQL (203.0ms)[0m   [0;1mALTER TABLE `users` ADD `lastname` varchar(255)[0m
+  [4;35;1mSQL (797.0ms)[0m   [0mALTER TABLE `users` ADD `firstname` varchar(255)[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101011073328')[0m
+Migrating to CreateTasks (20101011124917)
+  [4;35;1mSQL (93.0ms)[0m   [0mCREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `title` varchar(255), `description` varchar(255), `status` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101011124917')[0m
+Migrating to AddActivationColumnsToUser (20101012072237)
+  [4;35;1mSQL (266.0ms)[0m   [0mALTER TABLE `users` ADD `activation_code` varchar(40)[0m
+  [4;36;1mSQL (203.0ms)[0m   [0;1mALTER TABLE `users` ADD `activated_at` datetime[0m
+  [4;35;1mSQL (31.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101012072237')[0m
+Migrating to CreateCategories (20101014091812)
+  [4;36;1mSQL (94.0ms)[0m   [0;1mCREATE TABLE `categories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `category_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014091812')[0m
+Migrating to AddUserIdToCategories (20101014111653)
+  [4;36;1mSQL (172.0ms)[0m   [0;1mALTER TABLE `categories` ADD `user_id` int(11)[0m
+  [4;35;1mSQL (31.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014111653')[0m
+Migrating to AddCategoryIdToTasks (20101014130303)
+  [4;36;1mSQL (172.0ms)[0m   [0;1mALTER TABLE `tasks` ADD `category_id` int(11)[0m
+  [4;35;1mSQL (31.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014130303')[0m
+Migrating to CreateLids (20101019073615)
+  [4;36;1mSQL (157.0ms)[0m   [0;1mCREATE TABLE `lids` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` varchar(255), `first_name` varchar(255), `last_name` varchar(255), `company` varchar(255), `title` varchar(255), `lead_source` varchar(255), `campaign` varchar(255), `industry` varchar(255), `annual_revenue` varchar(255), `street` varchar(255), `city` varchar(255), `state_province` varchar(255), `zip_postal_code` varchar(255), `country` varchar(255), `product_interest` varchar(255), `sic_code` varchar(255), `number_of_locations` varchar(255), `phone` varchar(255), `mobile` varchar(255), `fax` varchar(255), `email` varchar(255), `website` varchar(255), `lead_status` varchar(255), `rating` varchar(255), `no_of_employees` varchar(255), `current_generator` varchar(255), `primary` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (47.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101019073615')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `categories`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `categories`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW FIELDS FROM `lids`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mdescribe `lids`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `lids`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mdescribe `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `tasks`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-10-20 17:51:07) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"1", "firstname"=>"zimin", "lastname"=>"anton", "password"=>"1", "login"=>"zim", "email"=>"liberius@bk.ru"}, "commit"=>"Sign up", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo="}
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'zim') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'liberius@bk.ru') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO `users` (`name`, `salt`, `updated_at`, `activated_at`, `crypted_password`, `remember_token_expires_at`, `activation_code`, `lastname`, `firstname`, `remember_token`, `login`, `email`, `created_at`) VALUES('', 'e58c78c8ef50645b5106510e6deb80a3ae542c9e', '2010-10-20 14:51:07', NULL, '8cb89554e2c49f9a688c50c2371021e342d0e882', NULL, '1daaa87aec68e897baf6ea3adea0ec8a9cddbc1a', 'anton', 'zimin', NULL, 'zim', 'liberius@bk.ru', '2010-10-20 14:51:07')[0m
+Sent mail to liberius@bk.ru
+
+Date: Wed, 20 Oct 2010 17:51:07 +0300
+From: ADMINEMAIL
+To: liberius@bk.ru
+Subject: [YOURSITE] Please activate your new account
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Your account has been created.
+
+  Username: zim
+  Password: 1
+
+Visit this url to activate your account:
+
+  localhost:3000/activate/1daaa87aec68e897baf6ea3adea0ec8a9cddbc1a
+  [4;36;1mSQL (171.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'zim' AND `users`.id <> 1) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'liberius@bk.ru' AND `users`.id <> 1) LIMIT 1[0m
+Completed in 4672ms (View: 188, DB: 187) | 200 OK [http://localhost/users/create]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101011072527)
+Migrating to AddColumnToUsers (20101011073328)
+Migrating to CreateTasks (20101011124917)
+Migrating to AddActivationColumnsToUser (20101012072237)
+Migrating to CreateCategories (20101014091812)
+Migrating to AddUserIdToCategories (20101014111653)
+Migrating to AddCategoryIdToTasks (20101014130303)
+Migrating to CreateLids (20101019073615)
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `categories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `categories`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSHOW FIELDS FROM `lids`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mdescribe `lids`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `lids`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mdescribe `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `tasks`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101011072527)
+Migrating to AddColumnToUsers (20101011073328)
+Migrating to CreateTasks (20101011124917)
+Migrating to AddActivationColumnsToUser (20101012072237)
+Migrating to CreateCategories (20101014091812)
+Migrating to AddUserIdToCategories (20101014111653)
+Migrating to AddCategoryIdToTasks (20101014130303)
+Migrating to CreateLids (20101019073615)
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mdescribe `categories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `categories`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSHOW FIELDS FROM `lids`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mdescribe `lids`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `lids`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mdescribe `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101011072527)
+Migrating to AddColumnToUsers (20101011073328)
+Migrating to CreateTasks (20101011124917)
+Migrating to AddActivationColumnsToUser (20101012072237)
+Migrating to CreateCategories (20101014091812)
+Migrating to AddUserIdToCategories (20101014111653)
+Migrating to AddCategoryIdToTasks (20101014130303)
+Migrating to CreateLids (20101019073615)
+  [4;35;1mSQL (15.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mdescribe `categories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `categories`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW FIELDS FROM `lids`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mdescribe `lids`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW KEYS FROM `lids`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-10-20 17:55:47) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"1", "firstname"=>"zimin", "lastname"=>"anton", "password"=>"1", "login"=>"zim", "email"=>"liberius@bk.ru"}, "commit"=>"Sign up", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo="}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'zim') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'liberius@bk.ru') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'zim') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'liberius@bk.ru') LIMIT 1[0m
+Completed in 281ms (View: 16, DB: 0) | 200 OK [http://localhost/users/create]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-20 17:56:24) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 172ms (View: 93, DB: 0) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-20 17:56:28) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-20 17:56:32) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo=", "login"=>"zim", "password"=>"1"}
+  [4;36;1mUser Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`login` = 'zim') LIMIT 1[0m
+Failed login for 'zim' from 127.0.0.1 at Wed Oct 20 14:56:32 UTC 2010
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 187ms (View: 0, DB: 15) | 200 OK [http://localhost/session]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#activate (for 127.0.0.1 at 2010-10-20 17:57:31) [GET]
+  Parameters: {"activation_code"=>"1daaa87aec68e897baf6ea3adea0ec8a9cddbc1a"}
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`activation_code` = '1daaa87aec68e897baf6ea3adea0ec8a9cddbc1a') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.0ms)[0m   [0;1mUPDATE `users` SET `activated_at` = '2010-10-20 14:57:31', `activation_code` = NULL, `updated_at` = '2010-10-20 14:57:31' WHERE `id` = 1[0m
+Sent mail to liberius@bk.ru
+
+Date: Wed, 20 Oct 2010 17:57:32 +0300
+From: ADMINEMAIL
+To: liberius@bk.ru
+Subject: [YOURSITE] Your account has been activated!
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+zim, your account has been activated.  Welcome aboard!
+
+  localhost:3000
+  [4;35;1mSQL (172.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/login
+Completed in 5562ms (DB: 203) | 302 Found [http://localhost/activate/1daaa87aec68e897baf6ea3adea0ec8a9cddbc1a]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-20 17:57:36) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-20 17:57:44) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"aLfXav0z79Weu85t0U9s4Sxv4ezsiqSw52t7+lx3WLo=", "login"=>"zim", "password"=>"1"}
+  [4;36;1mUser Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`login` = 'zim') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+Sent mail to liberius@bk.ru
+
+Date: Wed, 20 Oct 2010 17:57:44 +0300
+From: ADMINEMAIL
+To: liberius@bk.ru
+Subject: [YOURSITE] Your account has been activated!
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+zim, your account has been activated.  Welcome aboard!
+
+  localhost:3000
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 3218ms (DB: 15) | 302 Found [http://localhost/session]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-10-20 17:57:48) [GET]
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering tasks/index
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.user_id = 1) [0m
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.user_id = 1) AND ((status != 'finished') AND (`tasks`.user_id = 1)) [0m
+Rendered tasks/_tasks (78.0ms)
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.user_id = 1) AND ((`tasks`.`status` = 'finished') AND (`tasks`.user_id = 1)) [0m
+Rendered tasks/_tasks (63.0ms)
+Completed in 500ms (View: 250, DB: 16) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#index (for 127.0.0.1 at 2010-10-20 17:58:00) [GET]
+  [4;35;1mLid Load (0.0ms)[0m   [0mSELECT * FROM `lids` [0m
+Rendering template within layouts/lids
+Rendering lids/index
+Completed in 172ms (View: 47, DB: 0) | 200 OK [http://localhost/lids]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 17:58:02) [GET]
+  [4;35;1mLid Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `lids`[0m
+Rendering template within layouts/lids
+Rendering lids/new
+
+ActionView::TemplateError (undefined local variable or method `lids_path' for #<ActionView::Base:0x484c534>) on line #179 of vendor/plugins/salesforcelids/app/views/lids/new.html.erb:
+176: 
+177: </div><br/><br/><br/>
+178: 
+179: <%= link_to 'Back', lids_path %>
+
+    vendor/plugins/salesforcelids/app/views/lids/new.html.erb:179
+    vendor/plugins/salesforcelids/app/controllers/lids_controller.rb:29:in `new'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (141.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 17:59:42) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:03:27) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:03:29) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:03:34) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:07:15) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:07:17) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:07:18) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:07:20) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:09:23) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:09:24) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:09:26) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:09:46) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 156ms (View: 156, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-20 18:09:48) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (313.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-21 10:13:21) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5297ms (View: 5265, DB: 313) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-21 10:13:37) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"AIciQjaBE2yq68Ya9vVgoJM0SEceQbDjN+pC/hAhJWA=", "login"=>"zim", "password"=>"1"}
+  [4;36;1mUser Columns (203.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (125.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`login` = 'zim') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+Sent mail to liberius@bk.ru
+
+Date: Thu, 21 Oct 2010 10:13:39 +0300
+From: ADMINEMAIL
+To: liberius@bk.ru
+Subject: [YOURSITE] Your account has been activated!
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+zim, your account has been activated.  Welcome aboard!
+
+  localhost:3000
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 7078ms (DB: 328) | 302 Found [http://localhost/session]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-10-21 10:13:45) [GET]
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering tasks/index
+  [4;35;1mCategory Load (62.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.user_id = 1) [0m
+  [4;36;1mTask Load (78.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.user_id = 1) AND ((status != 'finished') AND (`tasks`.user_id = 1)) [0m
+Rendered tasks/_tasks (157.0ms)
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.user_id = 1) AND ((`tasks`.`status` = 'finished') AND (`tasks`.user_id = 1)) [0m
+Rendered tasks/_tasks (62.0ms)
+Completed in 625ms (View: 266, DB: 156) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#index (for 127.0.0.1 at 2010-10-21 10:13:52) [GET]
+  [4;35;1mLid Load (94.0ms)[0m   [0mSELECT * FROM `lids` [0m
+Rendering template within layouts/lids
+Rendering lids/index
+Completed in 312ms (View: 78, DB: 94) | 200 OK [http://localhost/lids]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:13:55) [GET]
+  [4;35;1mLid Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `lids`[0m
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 219ms (View: 94, DB: 15) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (46.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:22:58) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 281ms (View: 219, DB: 46) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:23:03) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:33:14) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:33:51) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 94ms (View: 78, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:33:53) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 62ms (View: 46, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:34:17) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-21 10:34:22) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;35;1mUser Columns (250.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (94.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Completed in 1485ms (View: 1094, DB: 344) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-21 10:35:14) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Completed in 172ms (View: 157, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#index (for 127.0.0.1 at 2010-10-21 10:35:19) [GET]
+  [4;35;1mLid Load (110.0ms)[0m   [0mSELECT * FROM `lids` [0m
+Rendering template within layouts/lids
+Rendering lids/index
+Completed in 219ms (View: 0, DB: 110) | 200 OK [http://localhost/lids]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#index (for 127.0.0.1 at 2010-10-21 10:42:03) [GET]
+  [4;35;1mLid Load (15.0ms)[0m   [0mSELECT * FROM `lids` [0m
+Rendering template within layouts/lids
+Rendering lids/index
+Completed in 109ms (View: 0, DB: 15) | 200 OK [http://localhost/lids]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:42:05) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:42:36) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:42:38) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:42:40) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:42:58) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:43:00) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:43:01) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:50:04) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 10:57:01) [GET]
+  [4;35;1mLid Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `lids`[0m
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 297ms (View: 172, DB: 16) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:11:14) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:11:15) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:11:16) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:11:17) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:11:41) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:11:42) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:15:14) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:15:17) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:15:18) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:16:02) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:16:03) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:16:29) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:16:31) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:16:32) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:17:41) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:18:20) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:22:04) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:22:05) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 15) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:23:21) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 78ms (View: 63, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:23:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:24:33) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:24:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:24:35) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:24:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:24:35) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:24:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:24:36) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:24:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:26:45) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:27:18) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:34:43) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:34:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:34:45) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:34:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:34:47) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:34:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:34:48) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:34:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:35:59) [GET]
+  [4;35;1mLid Columns (125.0ms)[0m   [0mSHOW FIELDS FROM `lids`[0m
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 421ms (View: 218, DB: 125) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:35:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:38:16) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:38:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:38:44) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:38:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:38:46) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:38:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:38:51) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:38:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:38:52) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 11:38:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/salesforcelids.css" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 11:40:16) [GET]
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 156ms (View: 156, DB: 0) | 200 OK [http://localhost/lids/new]
+  [4;36;1mSQL (187.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-21 15:46:34) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 1954ms (View: 1954, DB: 187) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#index (for 127.0.0.1 at 2010-10-21 15:46:47) [GET]
+  [4;36;1mLid Load (157.0ms)[0m   [0;1mSELECT * FROM `lids` [0m
+Rendering template within layouts/lids
+Rendering lids/index
+Completed in 375ms (View: 31, DB: 157) | 200 OK [http://localhost/lids]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-21 15:46:50) [GET]
+  [4;36;1mLid Columns (109.0ms)[0m   [0;1mSHOW FIELDS FROM `lids`[0m
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 281ms (View: 63, DB: 109) | 200 OK [http://localhost/lids/new]
+/!\ FAILSAFE /!\  Mon Oct 25 09:29:09 +0300 2010
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby187/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (31.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (62.5ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (78.1ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101011072527)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (62.5ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(40), `name` varchar(100) DEFAULT '', `email` varchar(100), `crypted_password` varchar(40), `salt` varchar(40), `created_at` datetime, `updated_at` datetime, `remember_token` varchar(40), `remember_token_expires_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (109.4ms)[0m   [0;1mCREATE UNIQUE INDEX `index_users_on_login` ON `users` (`login`)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101011072527')[0m
+Migrating to AddColumnToUsers (20101011073328)
+  [4;36;1mSQL (93.8ms)[0m   [0;1mALTER TABLE `users` ADD `lastname` varchar(255)[0m
+  [4;35;1mSQL (93.8ms)[0m   [0mALTER TABLE `users` ADD `firstname` varchar(255)[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101011073328')[0m
+Migrating to CreateTasks (20101011124917)
+  [4;35;1mSQL (46.9ms)[0m   [0mCREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `title` varchar(255), `description` varchar(255), `status` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101011124917')[0m
+Migrating to AddActivationColumnsToUser (20101012072237)
+  [4;35;1mSQL (125.0ms)[0m   [0mALTER TABLE `users` ADD `activation_code` varchar(40)[0m
+  [4;36;1mSQL (93.8ms)[0m   [0;1mALTER TABLE `users` ADD `activated_at` datetime[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101012072237')[0m
+Migrating to CreateCategories (20101014091812)
+  [4;36;1mSQL (46.9ms)[0m   [0;1mCREATE TABLE `categories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `category_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014091812')[0m
+Migrating to AddUserIdToCategories (20101014111653)
+  [4;36;1mSQL (109.4ms)[0m   [0;1mALTER TABLE `categories` ADD `user_id` int(11)[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014111653')[0m
+Migrating to AddCategoryIdToTasks (20101014130303)
+  [4;36;1mSQL (93.8ms)[0m   [0;1mALTER TABLE `tasks` ADD `category_id` int(11)[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101014130303')[0m
+Migrating to CreateLids (20101019073615)
+  [4;36;1mSQL (46.9ms)[0m   [0;1mCREATE TABLE `lids` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` varchar(255), `first_name` varchar(255), `last_name` varchar(255), `company` varchar(255), `title` varchar(255), `lead_source` varchar(255), `campaign` varchar(255), `industry` varchar(255), `annual_revenue` varchar(255), `street` varchar(255), `city` varchar(255), `state_province` varchar(255), `zip_postal_code` varchar(255), `country` varchar(255), `product_interest` varchar(255), `sic_code` varchar(255), `number_of_locations` varchar(255), `phone` varchar(255), `mobile` varchar(255), `fax` varchar(255), `email` varchar(255), `website` varchar(255), `lead_status` varchar(255), `rating` varchar(255), `no_of_employees` varchar(255), `current_generator` varchar(255), `primary` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101019073615')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `categories`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `categories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `lids`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `lids`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `lids`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mdescribe `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-25 09:34:18) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 1234ms (View: 1219, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#index (for 127.0.0.1 at 2010-10-25 09:34:30) [GET]
+  [4;36;1mLid Load (0.0ms)[0m   [0;1mSELECT * FROM `lids` [0m
+Rendering template within layouts/lids
+Rendering lids/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/lids]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-25 09:34:33) [GET]
+  [4;36;1mLid Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `lids`[0m
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]

@@ -2,7 +2,7 @@
 #   gem install sqlite3-ruby (not necessary on OS X Leopard)
 development:
   adapter: mysql
-  database: user_base_development
+  database: lids_base_development
   host: localhost
   username: root
   password: password

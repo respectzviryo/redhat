@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :salesforces
+  #map.resources :salesforcelids
 
   map.resources :categories
 

@@ -8,9 +8,9 @@ class CategoriesController < ApplicationController
       format.xml { render :xml => @categories }
     end
   end
-
-  # GET /categories/1
-  # GET /categories/1.xml
+  #
+  #
+  #xml
   def show
     @category = Category.find(params[:id])
 

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class StringAddTest < ActiveSupport::TestCase
+class SalesforcelidsTest < ActiveSupport::TestCase
   # Replace this with your real tests.
   test "the truth" do
     assert true

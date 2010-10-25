@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101019065042) do
+ActiveRecord::Schema.define(:version => 20101019073615) do
 
   create_table "categories", :force => true do |t|
     t.string   "category_name"
@@ -18,13 +18,41 @@ ActiveRecord::Schema.define(:version => 20101019065042) do
     t.integer  "user_id"
   end
 
-  create_table "salesforces", :force => true do |t|
+  create_table "lids", :force => true do |t|
+    t.string   "user_id"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "company"
+    t.string   "title"
+    t.string   "lead_source"
+    t.string   "campaign"
+    t.string   "industry"
+    t.string   "annual_revenue"
+    t.string   "street"
+    t.string   "city"
+    t.string   "state_province"
+    t.string   "zip_postal_code"
+    t.string   "country"
+    t.string   "product_interest"
+    t.string   "sic_code"
+    t.string   "number_of_locations"
+    t.string   "phone"
+    t.string   "mobile"
+    t.string   "fax"
+    t.string   "email"
+    t.string   "website"
+    t.string   "lead_status"
+    t.string   "rating"
+    t.string   "no_of_employees"
+    t.string   "current_generator"
+    t.string   "primary"
+    t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "tasks", :force => true do |t|
-    t.string   "user_id"
+    t.integer  "user_id"
     t.string   "title"
     t.string   "description"
     t.string   "status"

@@ -1,0 +1,30 @@
+
+root {
+    display: block;
+}
+
+div.left {
+
+}
+
+div.lead_information {
+    background-color:#e2e4e4;
+}
+
+div.title {
+    background-color:#fae9cf;
+}
+
+div.info{
+    float: left;
+}
+
+div.lead_information div{
+
+}
+
+div.row {
+    float: left;
+    width: 150px;
+}
+

@@ -8,7 +8,7 @@ class TasksController < ApplicationController
     if params[:category_id]
       @tasks = current_user.tasks.by_category(params[:category_id])
     end
-    if (params[:category_id] == "all") || (params[:category_id] ==nil)
+    if (params[:category_id].nil?) || (params[:category_id] == "all")
       @tasks = current_user.tasks
     end
 
