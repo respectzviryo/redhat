@@ -23018,6 +23018,31 @@ Rendering sessions/new
 Completed in 1234ms (View: 1219, DB: 0) | 200 OK [http://localhost/]
   [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
 
+Processing LidsController#index (for 127.0.0.1 at 2010-10-25 09:34:30) [GET]
+  [4;36;1mLid Load (0.0ms)[0m   [0;1mSELECT * FROM `lids` [0m
+Rendering template within layouts/lids
+Rendering lids/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/lids]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-25 09:34:33) [GET]
+  [4;36;1mLid Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `lids`[0m
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]Processing LidsController#index (for 127.0.0.1 at 2010-10-25 09:34:30) [GET]
+  [4;36;1mLid Load (0.0ms)[0m   [0;1mSELECT * FROM `lids` [0m
+Rendering template within layouts/lids
+Rendering lids/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/lids]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LidsController#new (for 127.0.0.1 at 2010-10-25 09:34:33) [GET]
+  [4;36;1mLid Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `lids`[0m
+Rendering template within layouts/lids
+Rendering lids/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/lids/new]
 
 Processing LidsController#index (for 127.0.0.1 at 2010-10-25 09:34:30) [GET]
   [4;36;1mLid Load (0.0ms)[0m   [0;1mSELECT * FROM `lids` [0m
