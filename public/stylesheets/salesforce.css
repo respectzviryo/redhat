@@ -20,21 +20,14 @@ div.title{
     font-weight:bold;
 }
 
-div.left {
-
-}
-
 div.lead_information {
     background-color:#e2e4e4;
     text-align: center;
+    height: 170px;
 }
 
 div.info{
     float: left;
-}
-
-div.lead_information{
-
 }
 
 div.row {
