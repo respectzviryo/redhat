@@ -1,4 +1,3 @@
-require 'oauth'
 class LeadsController < ApplicationController
   before_filter :set_access_creditians
   before_filter :login_required
@@ -14,7 +13,6 @@ class LeadsController < ApplicationController
     if @access_token
       @data = Salesforce::GetLeadsCmd.new(@access_token, @endpoint_url).execute
     else
-#      redirect_user_for_verification # used in OAuth 1.0
       redirect_to salesforce_url
     end
   end
@@ -72,25 +70,6 @@ class LeadsController < ApplicationController
     params.each { |k, v| result += "&#{k}=#{v}" }
     result[0] = "?"
     return result
-  end
-
-  private
-
-  def redirect_user_for_verification
-    oauth_options = {
-            :site => 'https://login.salesforce.com',
-            :scheme => :body,
-            :request_token_path => '/_nc_external/system/security/oauth/RequestTokenHandler',
-            :authorize_path => '/setup/secur/RemoteAccessAuthorizationPage.apexp',
-            :access_token_path => '/_nc_external/system/security/oauth/AccessTokenHandler',
-            }
-    consumer = OAuth::Consumer.new consumer_key, consumer_secret, oauth_options
-    consumer.http.set_debug_output STDERR
-    request = consumer.get_request_token
-    session[:request] = request
-    # set request to user to be able to use it in other controllers
-    authorize_url = request.authorize_url :oauth_consumer_key => consumer_key
-    redirect_to authorize_url
   end
 
   def set_access_creditians
