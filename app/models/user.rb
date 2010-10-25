@@ -82,6 +82,10 @@ class User < ActiveRecord::Base
     tasks.find_all_by_status(["started", "new"])
   end
 
+  def full_name
+    firstname.to_s + " " + lastname.to_s
+  end
+
   protected
   def make_activation_code
         self.activation_code = self.class.make_token

@@ -1,190 +1,121 @@
 <h1>New Lead</h1>
 
 
-
-
 <% form_tag "/leads/create" do %>
 
-  <%= submit_tag 'Create' %>
-
-  <div class="title">
-    <%= label_tag 'Lead information' %>
-  </div>
-
-  <div class="lead_information" align="center">
-
-    <div class="info">
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Lead Owner' %>
-        </div>
-        <div class="row furniture">
-          <%='Lead owner name'%>
-        </div>
-      </div>
-      <div style="clear:both"></div>
-
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'First name' %>
-        </div>
-        <div class="row furniture">
-          <%= select_tag 'salutation' %>
-        </div>
-        <div class="row furniture">
-          <%= text_field_tag 'firstName'%>
-        </div>
-      </div>
-      <div style="clear:both"></div>
-
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Last name' %>
-        </div>
-        <div class="row furniture">
-          <%= text_field_tag 'lastName'%>
-        </div>
-      </div>
-      <div style="clear:both"></div>
-
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Company' %>
-        </div>
-        <div class="row">
-          <%= text_field_tag 'company'%>
-        </div>
-      </div>
-      <div style="clear:both"></div>
-
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Title' %>
-        </div>
-        <div class="row furniture">
-          <%= text_field_tag 'title'%>
-        </div>
-      </div>
-      <div style="clear:both"></div>
-
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Lead sourse' %>
-        </div>
-        <div class="row furniture">
-          <%= select_tag 'lead_sourse' %>
-        </div>
-      </div>
-      <div style="clear:both"></div>
-
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Compaing' %>
-        </div>
-        <div class="row furniture">
-          <%= text_field_tag 'compaing' %>
-        </div>
-        <div class="row furniture">
-          <%= link_to image_tag("show.png", :size => "20x20",:border => "0") %>
-        </div>
-      </div>
-      <div style="clear:both"></div>
-
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Industry' %>
-        </div>
-        <div class="row furniture">
-          <%= select_tag 'industry' %>
-        </div>
-      </div>
-      <div style="clear:both"></div>
+    <div class="title">
+      <%= label_tag 'Lead information' %>
     </div>
 
-    <div class="info">
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Phone' %>
+    <div class="lead_information" align="center">
+      <div class="info">
+        <div class="column">
+          <div class="row row_name">
+            <%= label_tag 'Lead Owner' %>
+          </div>
+          <div class="row furniture">
+            <%= current_user.full_name %>
+          </div>
         </div>
-        <div class="row furniture">
-          <%= text_field_tag 'phone'%>
+
+        <div style="clear:both"></div>
+
+        <div class="column">
+          <div class="row row_name">
+            <%= label_tag 'First name' %>
+          </div>
+          <div class="row furniture">
+            <% options = ["--None--", "Mr.", "Ms.", "Mrs.", "Dr.", "Prof."] %>
+            <%= select_tag 'salutation', options_for_select(options) %>
+          </div>
+          <div class="row furniture">
+            <%= text_field_tag 'firstName' %>
+          </div>
         </div>
+
+        <div style="clear:both"></div>
+
+        <div class="column">
+          <div class="row row_name">
+            <%= label_tag 'Last name' %>
+          </div>
+          <div class="row furniture">
+            <%= text_field_tag 'lastName' %>
+          </div>
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div class="column">
+          <div class="row row_name">
+            <%= label_tag 'Company' %>
+          </div>
+          <div class="row">
+            <%= text_field_tag 'company' %>
+          </div>
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div class="column">
+          <div class="row row_name">
+            <%= label_tag 'Title' %>
+          </div>
+          <div class="row furniture">
+            <%= text_field_tag 'title' %>
+          </div>
+        </div>
+
+        <div style="clear:both"></div>
+
       </div>
-      <div style="clear:both"></div>
 
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Mobile' %>
-        </div>
-        <div class="row furniture">
-          <%= text_field_tag 'mobile'%>
-        </div>
-      </div>
-      <div style="clear:both"></div>
+      <div class="info">
 
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Fax' %>
+        <div class="column">
+          <div class="row row_name">
+            <%= label_tag 'Lead status' %>
+          </div>
+          <div class="row furniture">
+            <% options = ["Contacted", "Open", "Qualified", "Unqualified"] %>
+            <%= select_tag 'status', options_for_select(options) %>
+          </div>
         </div>
-        <div class="row furniture">
-          <%= text_field_tag 'fax'%>
-        </div>
-      </div>
-      <div style="clear:both"></div>
+        <div style="clear:both"></div>
 
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Email' %>
+        <div class="column">
+          <div class="row row_name">
+            <%= label_tag 'Phone' %>
+          </div>
+          <div class="row furniture">
+            <%= text_field_tag 'phone' %>
+          </div>
         </div>
-        <div class="row furniture">
-          <%= text_field_tag 'email'%>
-        </div>
-      </div>
-      <div style="clear:both"></div>
+        <div style="clear:both"></div>
 
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Website' %>
+        <div class="column">
+          <div class="row row_name">
+            <%= label_tag 'Email' %>
+          </div>
+          <div class="row furniture">
+            <%= text_field_tag 'email' %>
+          </div>
         </div>
-        <div class="row furniture">
-          <%= text_field_tag 'website'%>
-        </div>
-      </div>
-      <div style="clear:both"></div>
+        <div style="clear:both"></div>
 
+        <div class="column">
+          <div class="row row_name">
+            <%= label_tag 'Rating' %>
+          </div>
+          <div class="row furniture">
+            <% options = ["--None--", "Hot", "Warm", "Cold"] %>
+            <%= select_tag 'rating', options_for_select(options) %>
+          </div>
+        </div>
+        <div style="clear:both"></div>
 
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Lead status' %>
-        </div>
-        <div class="row furniture">
-          <%= select_tag 'status' %>
-        </div>
-      </div>
-      <div style="clear:both"></div>
-
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'Rating' %>
-        </div>
-        <div class="row furniture">
-          <%= select_tag 'rating' %>
-        </div>
-      </div>
-      <div style="clear:both"></div>
-
-      <div class="column">
-        <div class="row row_name">
-          <%= label_tag 'No. of Employees' %>
-        </div>
-        <div class="row furniture">
-          <%= text_field_tag 'employees'%>
-        </div>
       </div>
     </div>
 
-    <div style="clear:both"></div>
-
-  </div>
-  <%= submit_tag "Create" %> &nbsp; <%= link_to "Cancel", {:controller => :leads, :action => :show_all_leads } %>
+    <%= submit_tag "Create" %> &nbsp; <%= link_to "Cancel", {:controller => :leads, :action => :show_all_leads} %>
 <% end %>
