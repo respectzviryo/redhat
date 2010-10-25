@@ -12,8 +12,7 @@ module Salesforce
     def execute
       # TODO: find lead from all records
       begin
-        delete = Delete.new.push(lead_id)
-        res = driver.delete("ids" => delete)
+        res = driver.delete("ids" => [lead_id])
         puts res.inspect
         true
       rescue Exception => ex

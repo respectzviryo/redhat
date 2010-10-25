@@ -1,4 +1,6 @@
+require "salesforce/sforce_objects"
 module Salesforce
+
 
   class SalesforceCmd
 
@@ -22,4 +24,4 @@ module Salesforce
     end
 
   end
-end
+end             

@@ -32,7 +32,7 @@
           <div class="status"> <%= record.status %></div>
 
           <div class="actions hidden" style="text-align: center;">
-            <div><%= link_to "delete", {:controller => :leads, :action=> :destroy, :lead_id => record["Id"].first} %></div>
+            <div><%= link_to "delete", {:controller => :leads, :action=> :destroy, :lead_id => record["Id"].first}, :confirm => "Are you sure?" %></div>
             <div><%= link_to "update", {:controller => :leads, :action=> :edit, :lead_id => record["Id"].first} %></div>
           </div>
         </div>
