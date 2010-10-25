@@ -2,12 +2,13 @@ module Salesforce
 
   class UpdateLeadCmd
 
-    attr_accessor :elements, :access_token, :lead_id
+    attr_accessor :elements, :access_token, :lead_id, :endpoint_url
 
-    def initialize access_token, lead_id, elements
+    def initialize access_token, endpoint_url, lead_id, elements
       @access_token = access_token
       @elements = elements
       @lead_id = lead_id
+      @endpoint_url = endpoint_url
     end
 
     def execute
@@ -16,7 +17,7 @@ module Salesforce
 
         driver.wiredump_dev = STDERR
         driver.headerhandler << Salesforce::ClientAuthHeaderHandler.new(access_token)
-        driver.endpoint_url = ENDPOINT_URL
+        driver.endpoint_url = endpoint_url
 
         s = SObject.new
         s.type = "Lead"

@@ -22,6 +22,17 @@ class SalesforceController < ApplicationController
     current_user.request_token = result["refresh_token"]
     current_user.save
 
+
+    # using identity url to get correct callback url
+    identity_url = result["id"]
+    identity_url=identity_url.gsub("login", "emea")
+
+    http = Net::HTTP.new("emea.salesforce.com", 443)
+    http.use_ssl = true
+    resp, data = http.get(identity_url + "?oauth_token=#{result["access_token"]}&version=17.0", nil)
+    user_info = JSON.parse(data)
+    session[:endpoint_url] = ENDPOINT_URL + user_info["organization_id"] 
+    
     redirect_to :controller => :leads, :action => :index
   end
 end

@@ -2,11 +2,12 @@ module Salesforce
 
   class CreateLeadCmd
 
-    attr_accessor :elements, :access_token
+    attr_accessor :elements, :access_token, :endpoint_url
 
-    def initialize access_token, elements 
+    def initialize access_token, endpoint_url, elements
       @access_token = access_token
       @elements = elements
+      @endpoint_url = endpoint_url
     end
 
     def execute
@@ -15,7 +16,7 @@ module Salesforce
 
         driver.wiredump_dev = STDERR
         driver.headerhandler << Salesforce::ClientAuthHeaderHandler.new(access_token)
-        driver.endpoint_url = ENDPOINT_URL
+        driver.endpoint_url = endpoint_url
 
         s = SObject.new
         s.type = "Lead"
