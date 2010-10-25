@@ -23,7 +23,7 @@ class LeadsController < ApplicationController
 
   def create
     elements = {}
-    ["firstName", "lastName", "company"].each { |e| elements[e] = params[e] }
+    ["firstName", "lastName", "company", "status", "title", "phone", "email", "rating"].each { |e| elements[e] = params[e] }
     create_cmd = Salesforce::CreateLeadCmd.new(@access_token, elements)
     created = create_cmd.execute
     flash[:info] = created ? "Lead was successfully created" : "Could not create lead due to some error"
@@ -44,7 +44,7 @@ class LeadsController < ApplicationController
 
   def update
     elements = {}
-    ["firstName", "lastName", "company", "status"].each { |e| elements[e] = params[e] }
+    ["firstName", "lastName", "company", "status", "title", "phone", "email"].each { |e| elements[e] = params[e] }
     update_cmd = Salesforce::UpdateLeadCmd.new(@access_token, params[:lead_id], elements)
     updated = update_cmd.execute
     flash[:info] = updated ? "Lead was successfully updated" : "Could not update lead due to some error"
