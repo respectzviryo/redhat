@@ -5,7 +5,7 @@ development:
   database: user_base_development
   host: localhost
   user: root
-  password: password
+  password: 
   pool: 5
   timeout: 5000
 
@@ -13,7 +13,7 @@ test:
   adapter: mysql
   database: user_base_test
   user: root
-  password: password
+  password: 
   host: localhost
   pool: 5
   timeout: 5000
@@ -23,7 +23,7 @@ production:
   database: user_base_development
   host: localhost
   user: root
-  password: password
+  password: 
   pool: 5
   timeout: 5000
 

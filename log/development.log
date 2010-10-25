@@ -37901,3 +37901,29 @@ Rendering template within layouts/salesforces
 Rendering salesforces/new
 Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/salesforces/new]
 >>>>>>> verst
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2010-10-25 12:41:05) [GET]
+
+TypeError (wrong argument type Class (expected Module)):
+  app/controllers/sessions_controller.rb:3:in `include'
+  app/controllers/sessions_controller.rb:3
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-25 12:44:59) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 110ms (View: 110, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SalesforcesController#new (for 127.0.0.1 at 2010-10-25 12:45:12) [GET]
+Rendering template within layouts/salesforces
+Rendering salesforces/new
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/salesforces/new]
