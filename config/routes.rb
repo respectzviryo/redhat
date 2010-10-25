@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :salesforces
+
   map.resources :categories
   
   map.resources :tasks, :collection => {:sort => :post}

@@ -26,3 +26,19 @@ config.action_view.cache_template_loading            = true
 
 # Enable threaded mode
 # config.threadsafe!
+
+config.action_mailer.default_url_options = { :host => "localhost", :port => 3000 }
+
+config.action_mailer.raise_delivery_errors = false
+
+config.action_mailer.delivery_method = :smtp
+
+ActionMailer::Base.smtp_settings = {
+        :tls => true,
+        :address => "smtp.gmail.com",
+        :port => "587",
+        :domain => "ex.com",
+        :authentication => :plain,
+        :user_name => "korpan.ievgenii",
+        :password => "thunderstorm"
+}

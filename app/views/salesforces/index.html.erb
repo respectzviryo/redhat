@@ -1,0 +1,18 @@
+<h1>Listing salesforces</h1>
+
+<table>
+  <tr>
+  </tr>
+
+<% @salesforces.each do |salesforce| %>
+  <tr>
+    <td><%= link_to 'Show', salesforce %></td>
+    <td><%= link_to 'Edit', edit_salesforce_path(salesforce) %></td>
+    <td><%= link_to 'Destroy', salesforce, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New salesforce', new_salesforce_path %>
