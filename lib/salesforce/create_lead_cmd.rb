@@ -1,23 +1,16 @@
 module Salesforce
 
-  class CreateLeadCmd
+  class CreateLeadCmd < SalesforceCmd
 
-    attr_accessor :elements, :access_token, :endpoint_url
+    attr_accessor :elements
 
     def initialize access_token, endpoint_url, elements
-      @access_token = access_token
+      super(access_token, endpoint_url)
       @elements = elements
-      @endpoint_url = endpoint_url
     end
 
     def execute
       begin
-        driver = SOAP::WSDLDriverFactory.new(SALESFORCE_WSDL).create_rpc_driver
-
-        driver.wiredump_dev = STDERR
-        driver.headerhandler << Salesforce::ClientAuthHeaderHandler.new(access_token)
-        driver.endpoint_url = endpoint_url
-
         s = SObject.new
         s.type = "Lead"
         s.set_any(elements)
