@@ -93,7 +93,7 @@ class LeadsController < ApplicationController
   end
 
   def set_access_token
-    @access_token = current_user.request_token
+    @access_token = session[:access_token]
   end
 
 end

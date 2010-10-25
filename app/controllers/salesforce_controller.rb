@@ -18,8 +18,8 @@ class SalesforceController < ApplicationController
     resp, data = http.post(path, data, headers)
 
     result = JSON.parse(data)
-    access_token = result["access_token"]
-    current_user.request_token = access_token
+    session[:access_token] = result["access_token"]
+    current_user.request_token = result["refresh_token"]
     current_user.save
 
     redirect_to :controller => :leads, :action => :index
