@@ -40,6 +40,5 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
   config.gem 'test-unit', :lib => 'test/unit'
 end
-
-
-gem "soap4r"
+gem 'soap4r'
+require 'ssl_requirement'
