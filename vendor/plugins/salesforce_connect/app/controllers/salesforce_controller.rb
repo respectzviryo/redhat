@@ -32,6 +32,7 @@ class SalesforceController < ApplicationController
 
     result = JSON.parse(data)
     if current_user && current_user.try(:refresh_token)
+      #TODO: implement functionality corresponding for using refresh token to get new access token
       current_user.refresh_token = result["refresh_token"]
       current_user.save
     end
