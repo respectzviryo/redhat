@@ -5,6 +5,7 @@ class SconnectGenerator < Rails::Generator::Base
       m.file "main.css", "public/stylesheets/main.css"
       m.file "salesforce.css", "public/stylesheets/salesforce.css"
       m.file "salesforce_constants.rb", "lib/salesforce_constants.rb"
+      m.directory "db/migrate/"
       m.file "20101022141046_add_refresh_token_to_users.rb", "db/migrate/20101022141046_add_refresh_token_to_users.rb"
 
       add_to_environment "gem 'soap4r'"
