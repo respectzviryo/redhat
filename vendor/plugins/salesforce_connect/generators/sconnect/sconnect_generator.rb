@@ -7,6 +7,8 @@ class SconnectGenerator < Rails::Generator::Base
       m.file "salesforce_constants.rb", "lib/salesforce_constants.rb"
       m.directory "db/migrate/"
       m.file "20101022141046_add_refresh_token_to_users.rb", "db/migrate/20101022141046_add_refresh_token_to_users.rb"
+      m.directory "public/wsdl"
+      m.file "partner.wsdl", "public/wsdl/partner.wsdl"
 
       add_to_environment "gem 'soap4r'"
       add_to_environment "require 'ssl_requirement'"
