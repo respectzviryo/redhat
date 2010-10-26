@@ -2,7 +2,7 @@ class SconnectGenerator < Rails::Generator::Base
 
   def manifest
     record do |m|
-      m.file "main.css", "public/stylesheets/main.css"
+      m.file "leads.css", "public/stylesheets/leads.css"
       m.file "salesforce.css", "public/stylesheets/salesforce.css"
       m.file "salesforce_constants.rb", "lib/salesforce_constants.rb"
       m.directory "db/migrate/"
