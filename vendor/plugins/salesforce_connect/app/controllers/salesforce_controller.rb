@@ -1,6 +1,7 @@
 class SalesforceController < ApplicationController
   include SslRequirement
   include Salesforce
+  include SalesforceConstants
   LOGIN_PAGE_URL = "login.salesforce.com"
 
   ssl_required :index
@@ -8,7 +9,7 @@ class SalesforceController < ApplicationController
   def index
     instance_url, identity_url, access_token = retrieve_access_token params["code"]
     session[:access_token] = access_token
-    
+
     # using identity url to get correct callback url
     prepare_endpoint_url identity_url, instance_url, access_token
 
@@ -30,8 +31,10 @@ class SalesforceController < ApplicationController
     resp, data = http.post(path, data, headers)
 
     result = JSON.parse(data)
-    current_user.request_token = result["refresh_token"]
-    current_user.save
+    if current_user && current_user.try(:refresh_token)
+      current_user.refresh_token = result["refresh_token"]
+      current_user.save
+    end
     return result["instance_url"], result["id"], result["access_token"]
   end
 

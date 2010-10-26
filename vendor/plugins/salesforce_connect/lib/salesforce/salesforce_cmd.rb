@@ -1,8 +1,9 @@
 require "salesforce/sforce_objects"
+require 'soap/wsdlDriver'
 module Salesforce
 
-
   class SalesforceCmd
+    include SalesforceConstants
 
     attr_accessor :access_token, :endpoint_url, :driver
 

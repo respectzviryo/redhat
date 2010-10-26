@@ -1,0 +1,72 @@
+.pinter {
+    cursor:pointer;
+}
+
+
+.titles div {
+    float:left;
+    margin-left: 20px;
+}
+
+
+
+
+.tasks div {
+    float:left;
+    margin-left: 20px;
+}
+
+div.check {
+    width: 60px;
+    height: 21px;
+    text-align: center;
+}
+
+div.tasks div.info {
+    width: 200px;
+}
+
+div.tasks div.status {
+    width: 60px;
+}
+
+div.tasks div.actions {
+    width: 175px;
+}
+
+div.tasks div.actions div {
+    width: 30px;
+}
+
+div.actions_title {
+    width: 166px;
+    text-align: center;
+}
+
+div.tasks div.wrapper {
+    margin: 0;
+}
+
+div.tasks div.line_through {
+    margin: 0;
+    text-decoration: line-through
+}
+
+div.task_container {
+}
+
+div.task_container:hover {
+    background-color: yellow;   
+}
+
+div.task_container:hover div.actions {
+    visibility: visible;   
+}
+
+div.hidden {
+    visibility: hidden;
+}
+
+img{
+    margin-top: 3px;    
+}

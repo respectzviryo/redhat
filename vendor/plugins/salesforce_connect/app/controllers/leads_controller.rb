@@ -2,6 +2,7 @@ class LeadsController < ApplicationController
   before_filter :set_access_creditians
 
   include SslRequirement
+  include SalesforceConstants
 
   ssl_required :index, :new, :create, :destroy, :edit, :update 
 
