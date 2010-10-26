@@ -2,14 +2,10 @@
     cursor:pointer;
 }
 
-
 .titles div {
     float:left;
     margin-left: 20px;
 }
-
-
-
 
 .tasks div {
     float:left;
@@ -50,9 +46,6 @@ div.tasks div.wrapper {
 div.tasks div.line_through {
     margin: 0;
     text-decoration: line-through
-}
-
-div.task_container {
 }
 
 div.task_container:hover {

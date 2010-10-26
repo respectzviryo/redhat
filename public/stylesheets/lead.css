@@ -1,10 +1,12 @@
 div.title div {
     font-weight: bold;
     float: left;
+    margin-left: 20px;
 }
 
 div.title {
     height: 20px;
+    width: 1035px;
     background-color: #fae9cf;
     margin-left: 20px;
 }
@@ -16,16 +18,41 @@ div.check {
     margin-left: 20px;
 }
 
-div.title div {
-    margin-left: 20px;
-}
-
-div.info {
+div.title div.info {
     text-align: center;
+    margin-left: 20px;
     width: 200px;
 }
 
 div.status {
     text-align: center;
     width: 60px;
+}
+
+div.leads_container_white {
+    background-color: #FFFFFF;
+    width: 1035px;
+}
+
+div.leads_container_white:hover {
+    width: 1035px;
+    background-color: yellow;
+}
+
+div.leads_container_white:hover div.actions {
+    visibility: visible;
+}
+
+div.leads_container_grey {
+    width: 1035px;
+    background-color: #ebebeb;
+}
+
+div.leads_container_grey:hover {
+    width: 1035px;
+    background-color: yellow;
+}
+
+div.leads_container_grey:hover div.actions {
+    visibility: visible;
 }

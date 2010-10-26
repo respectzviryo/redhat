@@ -20,7 +20,7 @@
 <div>
   <% @data.each_with_index do |record, i| %>
       <div class="tasks">
-        <div class="task_container">
+        <div class=<%= line_color i %>>
           <div class="check">
             <%= i + 1 %>
           </div>
