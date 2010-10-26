@@ -1,4 +1,4 @@
-class LeadsController < ApplicationController
+class LeadsController < GeneralController
   before_filter :set_access_creditians
 
   include SslRequirement
@@ -6,13 +6,19 @@ class LeadsController < ApplicationController
 
   SALERSFORCE_AUTHORIZATION_EDNPOINT = "https://login.salesforce.com/services/oauth2/authorize"
 
-  ssl_required :index, :new, :create, :destroy, :edit, :update 
+  ssl_required :index, :new, :create, :destroy, :edit, :update
 
   def index
     if @access_token
       @data = Salesforce::GetLeadsCmd.new(@access_token, @endpoint_url).execute
     else
-      redirect_to salesforce_url
+      puts current_user.refresh_token
+      if defined?(current_user) && defined?(current_user.refresh_token) && current_user["refresh_token"]
+        retrive_access_token(current_user["refresh_token"], REFRESH_TOKEN_TYPE)
+        @data = Salesforce::GetLeadsCmd.new(session[:access_token], session[:endpoint_url]).execute
+      else
+        redirect_to salesforce_url
+      end
     end
   end
 
