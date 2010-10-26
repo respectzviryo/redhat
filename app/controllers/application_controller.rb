@@ -12,19 +12,5 @@ class ApplicationController < ActionController::Base
 
   include AuthenticatedSystem
   include SslRequirement
-
-  helper_method :consumer_key, :consumer_secret, :callback_url
-
-  def consumer_key
-    CONSUMER_KEY
-  end
-
-  def consumer_secret
-    CONSUMER_SECRET
-  end
-
-  def callback_url
-    CALLBACK_URL
-  end
   
 end

@@ -1,13 +1,9 @@
 class LeadsController < ApplicationController
   before_filter :set_access_creditians
-  before_filter :login_required
 
   include SslRequirement
 
-  ssl_required :index
-
-  def show_all_leads
-  end
+  ssl_required :index, :new, :create, :destroy, :edit, :update 
 
   def index
     if @access_token
@@ -56,12 +52,12 @@ class LeadsController < ApplicationController
   def salesforce_url
     params = {
             "response_type" => "code",
-            "client_id" => consumer_key,
-            "redirect_uri" => callback_url,
+            "client_id" => CONSUMER_KEY,
+            "redirect_uri" => CALLBACK_URL,
             "state" => "OK"
     }
 
-    Constants::SALERSFORCE_AUTHORIZATION_EDNPOINT + convert_hash_to_string_params(params)
+    SALERSFORCE_AUTHORIZATION_EDNPOINT + convert_hash_to_string_params(params)
   end
 
 

@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
   # render new.erb.html
   def new
     if current_user
-       redirect_to :controller => "leads", :action => "show_all_leads"
+       redirect_to :controller => "tasks", :action => "index"
      end
   end
 
@@ -22,7 +22,7 @@ class SessionsController < ApplicationController
       handle_remember_cookie! new_cookie_flag
  #     redirect_back_or_default('/')
       flash[:notice] = "Logged in successfully"
-      redirect_to :controller => 'leads', :action => 'index'
+      redirect_to :controller => "tasks", :action => "index"
     else
       note_failed_signin user
       @login       = params[:login]
