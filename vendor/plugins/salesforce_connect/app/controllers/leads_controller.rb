@@ -4,6 +4,8 @@ class LeadsController < ApplicationController
   include SslRequirement
   include SalesforceConstants
 
+  SALERSFORCE_AUTHORIZATION_EDNPOINT = "https://login.salesforce.com/services/oauth2/authorize"
+
   ssl_required :index, :new, :create, :destroy, :edit, :update 
 
   def index

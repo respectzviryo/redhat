@@ -3,6 +3,7 @@ class SalesforceController < ApplicationController
   include Salesforce
   include SalesforceConstants
   LOGIN_PAGE_URL = "login.salesforce.com"
+  ENDPOINT_URL = "https://eu0-api.salesforce.com/services/Soap/u/20.0/" 
 
   ssl_required :index
 

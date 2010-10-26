@@ -1,8 +1,6 @@
 module SalesforceConstants
-  CONSUMER_KEY = nil
+  CONSUMER_KEY = nil 
   CONSUMER_SECRET = nil
   CALLBACK_URL = nil
   SALESFORCE_WSDL = nil
-  ENDPOINT_URL = nil
-  SALERSFORCE_AUTHORIZATION_EDNPOINT = nil
 end
