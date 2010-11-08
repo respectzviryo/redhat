@@ -11,6 +11,6 @@ class ApplicationController < ActionController::Base
 
 
   include AuthenticatedSystem
-  include SslRequirement
+#  include SslRequirement
   
 end

@@ -6,4 +6,11 @@ class Task < ActiveRecord::Base
   named_scope :finished, :conditions => {:status => "finished"}
   named_scope :started, :conditions => "status != 'finished'"
 
+  validate :valid?
+
+  def valid?
+    errors.add(:title, "title is empty") if title.blank?
+    return errors.blank?
+  end
+
 end

@@ -37959,3 +37959,111 @@ Processing LeadsController#new (for 127.0.0.1 at 2010-10-25 13:03:01) [GET]
 Rendering template within layouts/application
 Rendering leads/new
 Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/leads/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (47.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mTask Columns (63.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTask Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTask Create (0.0ms)[0m   [0;1mINSERT INTO `tasks` (`status`, `updated_at`, `title`, `description`, `category_id`, `user_id`, `created_at`) VALUES(NULL, '2010-11-02 15:21:23', NULL, NULL, NULL, NULL, '2010-11-02 15:21:23')[0m
+  [4;35;1mSQL (47.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTask Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Create (0.0ms)[0m   [0mINSERT INTO `tasks` (`status`, `updated_at`, `title`, `description`, `category_id`, `user_id`, `created_at`) VALUES(NULL, '2010-11-02 15:21:44', NULL, NULL, NULL, NULL, '2010-11-02 15:21:44')[0m
+  [4;36;1mSQL (62.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTask Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (47.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101011072527)
+Migrating to AddColumnToUsers (20101011073328)
+Migrating to CreateTasks (20101011124917)
+Migrating to AddActivationColumnsToUser (20101012072237)
+Migrating to CreateCategories (20101014091812)
+Migrating to AddUserIdToCategories (20101014111653)
+Migrating to AddCategoryIdToTasks (20101014130303)
+Migrating to CreateExperimentals (20101018133425)
+Migrating to AddRefreshTokenToUsers (20101022141046)
+Migrating to AddFacebookConnectFieldsToUser (20101108084445)
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: Duplicate column name 'name': ALTER TABLE `users` ADD `name` varchar(255)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-08 10:50:38) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+
+ActionView::TemplateError (undefined local variable or method `authlogic_facebook_login_button' for #<ActionView::Base:0x46c3938>) on line #19 of app/views/layouts/application.html.erb:
+16: 
+17: <%= fb_connect_javascript_tag %>
+18:   <%= init_fb_connect "XFBML" %>
+19: <%= authlogic_facebook_login_button %>
+20: 
+21: 
+22: <%if logged_in? %>
+
+    app/views/layouts/application.html.erb:19
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:1:in `load'
+    -e:1
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (200)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-08 10:50:59) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+
+ActionView::TemplateError (undefined local variable or method `authlogic_facebook_login_button' for #<ActionView::Base:0x47e2940>) on line #19 of app/views/layouts/application.html.erb:
+16: 
+17: <%= fb_connect_javascript_tag %>
+18:   <%= init_fb_connect "XFBML" %>
+19: <%= authlogic_facebook_login_button %>
+20: 
+21: 
+22: <%if logged_in? %>
+
+    app/views/layouts/application.html.erb:19
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:1:in `load'
+    -e:1
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (200)
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-08 10:51:44) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 15ms (View: 15, DB: 15) | 200 OK [http://localhost/]
